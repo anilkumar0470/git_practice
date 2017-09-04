@@ -1,0 +1,5 @@
+fd = open("123.txt","w")
+print "Type",type(fd)
+print "Dir",dir(fd)
+fd.write("hello anil \n hi")
+fd.close()

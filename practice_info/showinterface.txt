@@ -1,0 +1,24 @@
+user@host> show interfaces terse
+Interface               Admin Link Proto    Local                 Remote
+t1-0/1/0:0              up    up
+t1-0/1/0:0.0            up    up   inet     192.168.220.18/30
+t1-0/1/0:1              up    up
+t1-0/1/0:2              up    up
+t1-0/1/0:3              up    up
+at-1/0/0                up    up
+at-1/0/1                up    up
+dsc                     up    up
+fxp0                    up    up
+fxp0.0                  up    up   inet     192.168.71.249/21
+fxp1                    up    up
+fxp1.0                  up    up   inet     10.0.0.4/8
+                                   tnp      4
+gre                     up    up
+ipip                    up    up
+lo0                     up    up
+lo0.0                   up    up   inet     10.0.1.4            --> 0/0
+                                            127.0.0.1           --> 0/0
+lo0.16385               up    up   inet
+
+lsi                     up    up
+mtun                    up    up

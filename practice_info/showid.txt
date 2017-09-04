@@ -1,0 +1,16 @@
+Router# show idb
+
+ Maximum number of Software IDBs 8192.  In use 17.
+
+                        HWIDBs     SWIDBs
+ Active                      5         14
+ Inactive                   10          3
+ Total IDBs                 15         17
+ Size each (bytes)        5784       2576
+ Total bytes             86760      43792
+
+ HWIDB#1   1   2   GigabitEthernet0/0 0 5, HW IFINDEX, Ether)
+ HWIDB#2   2   3   GigabitEthernet9/0 0 5, HW IFINDEX, Ether)
+ HWIDB#3   3   4   GigabitEthernet9/1 6 5, HW IFINDEX, Ether)
+ HWIDB#4   4   5   GigabitEthernet9/2 6 5, HW IFINDEX, Ether)
+ HWIDB#5   13  1   Ethernet0 4 5, HW IFINDEX, Ether)
