@@ -13,13 +13,13 @@ def student_register():
     l.append(e)
     l.append(f)
 student_register()
-print l
+print (l)
 
 l2 = []
 
 
 def student_marks():
-    name = raw_input ("enter the name of the student ")
+    name = input ("enter the name of the student ")
     a1 = input("enter the marks of ")
     a2 = input("enter the marks of ")
     a3 = input("enter the marks of ")
@@ -34,8 +34,8 @@ def student_marks():
     l2.append(a5)
     l2.append(a6)
 student_marks()
-print l2
-print l2[0]
+print (l2)
+print (l2[0])
 
 
 def student_search_result():

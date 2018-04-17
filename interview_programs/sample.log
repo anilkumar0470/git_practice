@@ -1,0 +1,42 @@
+INFO:root:the value is 30
+INFO:root:the value is 10
+INFO:root:the value is 170
+INFO:root:the value is 240
+INFO:2018-03-12 15:40:39,445:<module>
+INFO:2018-03-12 15:40:39,461:<module>
+INFO:2018-03-12 15:41:33,870:sum
+INFO:2018-03-12 15:41:33,870:<module>
+INFO:2018-03-12 15:41:33,870:sub
+INFO:2018-03-12 15:41:33,870:<module>
+INFO:2018-03-12 15:43:01,888:sum:Entering into sum method
+INFO:2018-03-12 15:43:01,888:<module>:the value is 170
+INFO:2018-03-12 15:43:01,888:sub:Entering into sub method
+INFO:2018-03-12 15:43:01,889:<module>:the value is 240
+INFO:2018-03-12 16:05:20,572:sum:Entering into sum method
+INFO:2018-03-12 16:05:20,572:<module>:the value is 170
+INFO:2018-03-12 16:05:20,572:sub:Entering into sub method
+INFO:2018-03-12 16:05:20,572:<module>:the value is 240
+INFO:2018-03-12 16:05:43,025::Entering into sum method
+INFO:2018-03-12 16:05:43,025::the value is 170
+INFO:2018-03-12 16:05:43,025::Entering into sub method
+INFO:2018-03-12 16:05:43,025::the value is 240
+INFO:2018-04-05 16:53:33,373::Entering into sum method
+INFO:2018-04-05 16:53:33,380::the value is 170
+INFO:2018-04-05 16:53:33,380::Entering into sub method
+INFO:2018-04-05 16:53:33,380::the value is 240
+INFO:2018-04-05 16:53:46,557::Entering into sum method
+INFO:2018-04-05 16:53:46,558::the value is 170
+INFO:2018-04-05 16:53:46,558::Entering into sub method
+INFO:2018-04-05 16:53:46,559::the value is 240
+INFO:2018-04-05 16:54:34,985::Entering into sum method
+INFO:2018-04-05 16:54:34,985::the value is 170
+INFO:2018-04-05 16:54:34,985::Entering into sub method
+INFO:2018-04-05 16:54:34,986::the value is 240
+INFO:2018-04-05 16:55:42,460::Entering into sum method
+INFO:2018-04-05 16:55:42,460::the value is 170
+INFO:2018-04-05 16:55:42,460::Entering into sub method
+INFO:2018-04-05 16:55:42,460::the value is 240
+INFO:2018-04-05 16:56:02,565::Entering into sum method
+INFO:2018-04-05 16:56:02,565::the value is 170
+INFO:2018-04-05 16:56:02,565::Entering into sub method
+INFO:2018-04-05 16:56:02,565::the value is 240
