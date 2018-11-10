@@ -1,0 +1,16 @@
+devices:
+    Switch1:
+        alias: Switch1
+        connections: {ip: 127.0.0.1, port: 5006, protocol: telnet, terminal_server_enable_password: "apathapa",
+          terminal_server_password: "apathapa", terminal_server_username: "apathapa"}
+        credentials: {enable_password: "apathapa", password: "apathapa", username: "apathapa"}
+    Switch2:
+      alias: Switch2
+      connections: {ip: 127.0.0.1, port: 5007, protocol: telnet, terminal_server_enable_password: "apathapa",
+                    terminal_server_password: "apathapa", terminal_server_username: "apathapa"}
+      credentials: {enable_password: "apathapa", password: "apathapa", username: "apathapa"}
+    Switch3:
+      alias: Switch3
+      connections: {ip: 127.0.0.1, port: 5008, protocol: telnet, terminal_server_enable_password: "apathapa",
+                    terminal_server_password: "apathapa", terminal_server_username: "apathapa"}
+      credentials: {enable_password: "apathapa", password: "apathapa", username: "apathapa"}
