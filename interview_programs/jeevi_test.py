@@ -177,3 +177,16 @@ for i in range(0,len(a)-1):
         new_array.append(abs(int(temp)))
         #f.append(new_value)
 print (new_array)
+
+
+
+class sample_hello():
+    def __init__(self):
+        print(" i am in hello")
+class sample_hai():
+    def __init__(self):
+        print("i am in hai")
+a = input("enter")
+c = eval("sample_{}()".format(a))
+print(c)
+
