@@ -25,12 +25,32 @@ a = "anilabapathapatiababathirupal"
 
 class Singletone():
     __single = None
+
     def __init__(self):
         if Singletone.__single:
             raise Singletone.__single
         Singletone.__single = self
 
-    def Handle(x = Singletone):
+
+class Child(Singletone):
+
+    def __init__(self, name):
+        Singletone.__init__(self)
+        self.__name = name
+
+    def name(self):
+        return self.__name
+
+
+class Junior(Singletone):
+    pass
+
+def Handle(x = Singletone):
+    try:
+        single = x()
+    except Singletone, s:
+        single = s
+    return single
 
 
 
