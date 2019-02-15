@@ -81,7 +81,7 @@
 # str3 += l
 # print(str3)
 
-import pytest
+#import pytest
 import logging
 
 
@@ -141,18 +141,18 @@ import logging
 #         print ("second")
 #     assert 0 # to see what was printed
 
-
-# c = []
-# for i,j in enumerate(a):
-#     b = j
-#     print (b)
-#     for k in range(0,len(a)-1):
-#         if b == a[k] :
-#             pass
-#         else :
-#             b = b * a[k]
-#         c.append(b)
-# print (c)
+a = [2,3,8,7,5]
+c = []
+for i,j in enumerate(a):
+    b = j
+    print (b)
+    for k in range(0,len(a)-1):
+        if b == a[k] :
+            pass
+        else :
+            b = b * a[k]
+        c.append(b)
+print (c)
 
 
 new_array = []
@@ -180,13 +180,61 @@ print (new_array)
 
 
 
-class sample_hello():
-    def __init__(self):
-        print(" i am in hello")
-class sample_hai():
-    def __init__(self):
-        print("i am in hai")
-a = input("enter")
-c = eval("sample_{}()".format(a))
-print(c)
+# class sample_hello():
+#     def __init__(self):
+#         print(" i am in hello")
+# class sample_hai():
+#     def __init__(self):
+#         print("i am in hai")
+# a = input("enter")
+# c = eval("sample_{}()".format(a))
+# print(c)
 
+# st = input("enter string")
+# k = int(input("enter secret level"))
+# a = ""
+# for i in st :
+#     v = ord(i) + k
+#     a = a + chr(v)
+# print(a)
+
+
+
+# This is code to validate expression
+#
+user_input = "[a+b-{(c/d}+a)*c]^2"
+user_input = "[a(v)v}v)v]"
+sample_dict = {"{": "}", "[": "]", "(": ")"}
+Flag = 0
+for letter in user_input:
+    if letter in sample_dict:
+        for num in range(0, len(user_input)):
+            if user_input[len(user_input)-num-1] in sample_dict.values():
+                if sample_dict[letter] == user_input[len(user_input)-num-1]:
+                    user_input = user_input.replace(sample_dict[letter], " ")
+                    Flag += 1
+                    break
+                else:
+                    break
+if Flag == 3:
+    print ("valid")
+else:
+    print ("invalid")
+
+ll = "!@#$%^&*()[]{};:,./<>?\|`~-=_+"
+pr_details = 'Hello !@#$%^&*()[]{};:,./<>?\|`~-=_+ Prasad'
+for e in ll:
+    if e in pr_details:
+       pr_details = pr_details.replace(e, "")
+print pr_details
+
+
+from string import maketrans   # Required to call maketrans function.
+
+intab = "aeiou"
+outtab = "12345"
+trantab = maketrans(intab, outtab)
+print trantab
+
+str = "this is string example....wow!!!";
+print str.translate(trantab)

@@ -15,12 +15,12 @@ a = "anilabapathapatiababathirupal"
 #             pass
 
 
-# reverse = a[::-1]
-# c = 0
-# for i,j in zip(a, reverse):
-#     if i == j:
-#         c = c + 1
-# print(c)
+reverse = a[::-1]
+c = 0
+for i,j in zip(a, reverse):
+    if i == j:
+        c = c + 1
+print(c)
 
 
 class Singletone():
