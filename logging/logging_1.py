@@ -73,6 +73,11 @@ file_handler.setFormatter(formatter)
 # we can also specify the logging level at file handler as well
 file_handler.setLevel(logging.ERROR)
 
+# when we run the above code console output is empty. to add messages into we will
+# stream handler
+stream_handler = logging.StreamHandler()
+logger.addHandler(stream_handler)
+stream_handler.setFormatter(formatter)
 add1 = add(x, y)
 logger.debug("the sum of x {} and y {} is {}".format(x, y, add1))
 

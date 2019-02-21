@@ -2,6 +2,8 @@
 # dataval is nothing but data or to see the data of current element or
 # next element we will use
 # nextval is nothing but address of next element
+# linked list is the sequence of data elements connected via data links
+# each data element consists of link of another data element in the form of pointer.
 
 
 class Node:
