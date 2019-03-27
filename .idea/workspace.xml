@@ -2,19 +2,16 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/practice_info/date_try.py" line="2" />
-    <bookmark url="file://$PROJECT_DIR$/class_and_objects/hello.py" line="6" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08b003d-5504-4062-81e9-9e73c7653a82" name="Default" comment="decorators and logging module">
-      <change afterPath="$PROJECT_DIR$/data_structure/linked_list_duplicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/stack.py" afterDir="false" />
+    <list default="true" id="b08b003d-5504-4062-81e9-9e73c7653a82" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/data_structures/bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/factory_pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/single_tone.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonExamples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_and_objects/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_and_objects/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure/linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/linked_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging/logging_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging/logging_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_programs/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_programs/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_programs/sample1.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_programs/sample1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,86 +22,123 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1705726947">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="pythonExamples" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_and_objects/hello.py">
+        <entry file="file://$PROJECT_DIR$/interview_programs/sample1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="-153" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structures/bubble_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/single_tone.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interview_programs/parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium/schdule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium/try.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_patterns/factory_pattern.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multi_threading/sample_thread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
               <folding>
-                <marker date="1550771357416" expanded="true" signature="13:14" ph="..." />
-                <marker date="1550771357416" expanded="true" signature="13:19" ph="..." />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interview_programs/jeevi_test.py">
+        <entry file="file://$PROJECT_DIR$/selenium/sam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logging/logging_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1892">
-              <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/linked_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/linked_list_duplicate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_structure/queue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logging/class_example_with_logging.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="13" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <marker date="1550390452351" expanded="true" signature="484:485" ph="..." />
-                <marker date="1550390452351" expanded="true" signature="484:490" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium/hello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,23 +146,9 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pytes</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="anilkumar0470 &lt;anilkumar.0466@gmail.com&gt;" />
-        <option value="anil &lt;anilkumar.0466@gmail.com&gt;" />
         <option value="anilkumar pathapati &lt;anilkumar.0466@gmail.com&gt;" />
       </list>
     </option>
@@ -137,6 +157,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/practice_info/regular_ex_match.py" />
+        <option value="$PROJECT_DIR$/practice_info/abc.txt" />
+        <option value="$PROJECT_DIR$/practice_info/regular_exp.py" />
+        <option value="$PROJECT_DIR$/practice_info/reg_pra.py" />
+        <option value="$PROJECT_DIR$/practice_info/showinventory.txt" />
+        <option value="$PROJECT_DIR$/practice_info/reg_exp_show_inv.py" />
+        <option value="$PROJECT_DIR$/practice_info/showinterface.txt" />
+        <option value="$PROJECT_DIR$/practice_info/showhardware.txt" />
+        <option value="$PROJECT_DIR$/practice_info/reg_exp_show_hardware.py" />
+        <option value="$PROJECT_DIR$/practice_info/showid.txt" />
+        <option value="$PROJECT_DIR$/practice_info/reg_exp_sub_replace.py" />
+        <option value="$PROJECT_DIR$/reg_exp_class.py" />
+        <option value="$PROJECT_DIR$/practice_info/reg_exp_show_interface.py" />
+        <option value="$PROJECT_DIR$/whileprimeControl.py" />
+        <option value="$PROJECT_DIR$/assignPriOrNot.py" />
+        <option value="$PROJECT_DIR$/practice_info/reg_exp_showinterface.py" />
+        <option value="$PROJECT_DIR$/all_prac_class.py" />
+        <option value="$PROJECT_DIR$/practice_info/reg_exp_class.py" />
         <option value="$PROJECT_DIR$/practice_info/reg_exp_all.py" />
         <option value="$PROJECT_DIR$/practice_info/reg_exp_compile_search.py" />
         <option value="$PROJECT_DIR$/practice_info/reg_exp_findall.py" />
@@ -170,32 +208,13 @@
         <option value="$PROJECT_DIR$/selenium/sam.py" />
         <option value="$PROJECT_DIR$/selenium/try.py" />
         <option value="$PROJECT_DIR$/multi_threading/sample_thread.py" />
-        <option value="$PROJECT_DIR$/interview_programs/map_reduce_filter.py" />
-        <option value="$PROJECT_DIR$/interview_programs/list.py" />
-        <option value="$PROJECT_DIR$/interview_programs/jeevi_test.py" />
-        <option value="$PROJECT_DIR$/pdb/example5.py" />
-        <option value="$PROJECT_DIR$/class_and_objects/class_and_objects_1.py" />
-        <option value="$PROJECT_DIR$/interview_programs/iterator.py" />
-        <option value="$PROJECT_DIR$/decorator/closures.py" />
-        <option value="$PROJECT_DIR$/decorator/sample.log" />
-        <option value="$PROJECT_DIR$/decorator/decoratos.py" />
-        <option value="$PROJECT_DIR$/logging/logging.py" />
-        <option value="$PROJECT_DIR$/logging/employee.log" />
-        <option value="$PROJECT_DIR$/logging/class_example_with_logging.py" />
-        <option value="$PROJECT_DIR$/logging/logging_1.py" />
-        <option value="$PROJECT_DIR$/data_structure/linked_list.py" />
-        <option value="$PROJECT_DIR$/data_structure/linked_list_duplicate.py" />
-        <option value="$PROJECT_DIR$/data_structure/stack.py" />
-        <option value="$PROJECT_DIR$/data_structure/queue.py" />
-        <option value="$PROJECT_DIR$/class_and_objects/hello.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="87" />
-    <option name="y" value="47" />
-    <option name="width" value="1279" />
-    <option name="height" value="681" />
+    <option name="x" value="-8" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,28 +222,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="git_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,129 +240,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="Python.hello">
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_and_objects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_and_objects/hello.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="linked_list_duplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structure" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structure/linked_list_duplicate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logging_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging/logging_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structure" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structure/queue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structure" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structure/stack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.logging_1" />
-      <item itemvalue="Python.linked_list_duplicate" />
-      <item itemvalue="Python.stack" />
-      <item itemvalue="Python.queue" />
-      <item itemvalue="Python.hello" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.hello" />
-        <item itemvalue="Python.queue" />
-        <item itemvalue="Python.stack" />
-        <item itemvalue="Python.linked_list_duplicate" />
-        <item itemvalue="Python.logging_1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -379,80 +259,57 @@
       <option name="project" value="LOCAL" />
       <updated>1523948361362</updated>
     </task>
-    <task id="LOCAL-00002" summary="junk,">
-      <created>1544255048245</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1544255048245</updated>
-    </task>
-    <task id="LOCAL-00003" summary="minor changes">
-      <created>1550249756157</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1550249756157</updated>
-    </task>
-    <task id="LOCAL-00004" summary="decorators and logging module">
-      <created>1550391259493</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1550391259493</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26785713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22940432" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8095238" weight="0.3820034" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26485568" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8095238" visible="true" weight="0.3794872" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1904762" side_tool="true" weight="0.30016312" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.5483871" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30390492" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.592233" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30598292" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.39116204" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26785713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16220239" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8095238" visible="true" weight="0.31478536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8095238" visible="true" weight="0.21732026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1904762" side_tool="true" weight="0.30016312" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.5484897" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3052464" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.39116204" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30831975" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291367" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="junk&#10;" />
-    <MESSAGE value="junk," />
-    <MESSAGE value="minor changes" />
-    <MESSAGE value="decorators and logging module" />
-    <option name="LAST_COMMIT_MESSAGE" value="decorators and logging module" />
+    <option name="LAST_COMMIT_MESSAGE" value="junk&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -466,9 +323,139 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stringMethos.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/std_details.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seek_positions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_concept.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loopingStatements.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loopingWhileloop.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map_fun.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practiceFibanacci.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_reverse_try_except.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_recursive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignFibanaci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_reverse_line.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun_table.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun_table_vertical.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun_tab.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_info/example_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_info/myprac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="19" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_info/date_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mypracsql2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emp1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_compression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mypracsql4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mypracsql3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -572,263 +559,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium/sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="204">
           <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium/schdule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium/try.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="204">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium/sam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="17">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlp/scripts/sample_test.py">
+    <entry file="file://$PROJECT_DIR$/data_structures/bubble_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_patterns/factory_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview_programs/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interview_programs/sample1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-        </state>
+        <state relative-caret-position="-153" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdb/fileutil.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignPriNum.py">
+    <entry file="file://$PROJECT_DIR$/design_patterns/single_tone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdb/example5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2552">
-          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlp/scripts/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="103" column="50" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="103" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_programs/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1738">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_programs/map_reduce_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="524">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multi_threading/sample_thread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_threading/sample2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_programs/decorators.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_programs/date.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_programs/temp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_programs/iterator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_and_objects/class_and_objects_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <marker date="1549971450974" expanded="true" signature="464:465" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="1855:1856" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="1855:1864" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="2156:2172" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="2548:2605" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="2638:2639" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="2638:2647" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="3110:3111" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="3110:3119" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="3642:3643" ph="..." />
-            <marker date="1549971450974" expanded="true" signature="3949:3954" ph="..." />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/closures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding>
-            <marker date="1550252420443" expanded="true" signature="21:26" ph="..." />
-            <marker date="1550252420443" expanded="true" signature="564:569" ph="..." />
-            <marker date="1550252420443" expanded="true" signature="1008:1116" ph="..." />
-            <marker date="1550252420443" expanded="true" signature="1479:1680" ph="..." />
-            <marker date="1550252420443" expanded="true" signature="1829:1834" ph="..." />
-            <marker date="1550252420443" expanded="true" signature="2009:2014" ph="..." />
-            <marker date="1550252420443" expanded="true" signature="2043:2048" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/decoratos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1936">
-          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-          <folding>
-            <marker date="1550284897258" expanded="true" signature="446:451" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="615:620" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="823:828" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="1021:1026" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="1177:1182" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="1713:1718" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="1921:1926" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="2189:2190" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="2189:2195" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="2504:2509" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="2667:2672" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="3110:3115" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="3322:3327" ph="..." />
-            <marker date="1550284897258" expanded="true" signature="3713:3816" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/sample.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/sample.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging/sample.txt" />
-    <entry file="file://$PROJECT_DIR$/logging/employee.log" />
-    <entry file="file://$PROJECT_DIR$/logging/new_employee.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_and_objects/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <marker date="1550771357416" expanded="true" signature="13:14" ph="..." />
-            <marker date="1550771357416" expanded="true" signature="13:19" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview_programs/jeevi_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging/logging_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/linked_list_duplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging/sample.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logging/class_example_with_logging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="13" />
-          <folding>
-            <marker date="1550390452351" expanded="true" signature="484:485" ph="..." />
-            <marker date="1550390452351" expanded="true" signature="484:490" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>

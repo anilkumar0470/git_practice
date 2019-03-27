@@ -155,3 +155,7 @@ def detail(name,age):
     print "name",name
     print "age",age
 detail('anil','23')
+
+
+
+
