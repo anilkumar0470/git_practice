@@ -66,23 +66,34 @@
 #
 #
 #
-import requests
-import pdb
-pdb.set_trace()
-bbb = requests.post("https://intranet.terralogic.com", data={"u_username":"anilkumar.pathapati@terralogic.com", "j_username":"anilkumar.pathapati@terralogic.com","j_password":"8374851518@As"})
+import re
+str = "name is anil kumar"
+pat = "(\w+)\s*(\w+)\s*(\w+)\s*(\w+)"
+match = re.search(pat, str)
+if match:
+    print(match.group(1))
+    print(match.group(2))
+    print(match.group())
+    print(match.groups())
 
-print (bbb)
-print(r)
-body = {"keyword": "1263"}
-a = r.post("https://intranet.terralogic.com/ajax/search/employee", body=body)
-print(a)
+#
+# import requests
+# import pdb
+# pdb.set_trace()
+# bbb = requests.post("https://intranet.terralogic.com", data={"u_username":"anilkumar.pathapati@terralogic.com", "j_username":"anilkumar.pathapati@terralogic.com","j_password":"8374851518@As"})
+#
+# print (bbb)
+# print(r)
+# body = {"keyword": "1263"}
+# a = r.post("https://intranet.terralogic.com/ajax/search/employee", body=body)
+# print(a)
 
 
 
 
 
 
-
-def a (name="anil"):
-    pass
-a(p="junk")
+#
+# def a (name="anil"):
+#     pass
+# a(p="junk")

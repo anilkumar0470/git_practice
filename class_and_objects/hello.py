@@ -12,13 +12,14 @@ for key, value in d.items():
     if "$ENV" in value:
         print(key)
 
-a = "abba"
+a = "anil"
 b = a[::-1]
+print(a == b)
 even = []
 odd = []
 elements = []
 
-print (a==b)
+
 for i in a:
     if a.count(i) % 2 == 0:
         even.append(i)
@@ -33,6 +34,8 @@ if len(odd)>1:
     print("it is not palindrome")
 else:
     print("Palin drome")
+
+
 # if a.count(a[0]) == len(a):
 #     print("it can be a palindrome")
 # elif len(a)%2 == 0:
@@ -120,3 +123,17 @@ for j in range(count):
     print(str2[j], end='')
 print(res)
 
+
+# Function to convert decimal number
+# to binary using recursion
+def DecimalToBinary(num):
+    if num > 1:
+        DecimalToBinary(num // 2)
+    print(num % 2, end='')
+
+dec_val = 24
+# Calling function
+DecimalToBinary(dec_val)
+
+
+ 
