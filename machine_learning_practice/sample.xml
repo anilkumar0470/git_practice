@@ -1,0 +1,25 @@
+<step Driver="common_driver" Keyword="save_value_in_json" TS="3">
+                        <Arguments>
+                                <argument name="key" value="NE1_td_response.show_run_interface_on_ne1.show_interface_on_ne1"/>
+                                <argument name="device" value="${ENV.NE1}"/>
+
+                        </Arguments>
+                        <onError action="abort"/>
+                        <Description>connect</Description>
+                        <Execute ExecType="Yes"/>
+                        <context>positive</context>
+                        <impact>impact</impact>
+                </step>
+
+<step Driver="common_driver" Keyword="save_value_in_json" TS="3">
+                        <Arguments>
+                                <argument name="key" value="NE2_td_response.show_run_interface_on_ne2.show_interface_on_ne2"/>
+                                <argument name="device" value="${ENV.NE2}"/>
+
+                        </Arguments>
+                        <onError action="abort"/>
+                        <Description>connect</Description>
+                        <Execute ExecType="Yes"/>
+                        <context>positive</context>
+                        <impact>impact</impact>
+                </step>
