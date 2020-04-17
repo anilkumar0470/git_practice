@@ -122,3 +122,9 @@ if mi:
     character = chr(mi)
     new_dict.append(character)
 print(sorted(new_dict))
+
+
+if mi :
+    pass
+elif(mi=="junk"):
+    pass

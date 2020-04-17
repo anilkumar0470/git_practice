@@ -126,8 +126,6 @@ list1.adding_node_between_elements(list1.headval.nextval, "sat")
 list1.display_nodes()
 
 
-
-
 class Node:
 
     def __init__(self, dataval):
@@ -202,3 +200,5 @@ object.display_elements()
 
 object.add_element_at_the_ending("five")
 object.display_elements()
+
+

@@ -1,0 +1,4 @@
+________student________details
+Name anil age 22 
+location btm 
+total 592 

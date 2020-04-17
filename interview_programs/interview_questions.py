@@ -383,3 +383,120 @@ if sm == em :
     print([months[sm -1 ]])
 elif sm < em :
     print(months[sm-1 : em -1])
+
+#
+# Given two strings a and b consisting of lowercase characters. The task is to check whether two given strings are anagram of each other or not. An anagram of a string is another string that contains same characters, only the order of characters can be different. For example, “act” and “tac” are anagram of each other.
+#
+# Input:
+# The first line of input contains an integer T denoting the number of test cases. Each test case consist of two strings in 'lowercase' only, in a single line.
+#
+# Output:
+# Print "YES" without quotes if the two strings are anagram else print "NO".
+#
+# Constraints:
+# 1 ≤ T ≤ 300
+# 1 ≤ |s| ≤ 1016
+#
+# Example:
+# Input:
+# 2
+# geeksforgeeks forgeeksgeeks
+# allergy allergic
+#
+# Output:
+# YES
+# NO
+#
+# Explanation:
+# Testcase 1: Both the string have same characters with same frequency. So, both are anagrams.
+# Testcase 2: Characters in both the strings are not same, so they are not anagrams.
+string  = "geeksforgeeks forgeeksgeeks"
+str = "allergy allergic"
+# num_tc = int(input("enter no of test cases"))
+num_tc = 1
+for i in range(num_tc):
+    # string = input("enter string to check ")
+    d1 = {}
+    d2 = {}
+    word1, word2 = string.split()
+    for i in word1:
+        if i not in d1:
+            d1.update({i: word1.count(i)})
+    for i in word2:
+        if i not in d2:
+            d2.update({i: word2.count(i)})
+    if d1 == d2 :
+        print("YES")
+    else:
+        print("NO")
+
+# Given a string, the task is to remove duplicates from it. Expected time complexity O(n) where n is length of input string and extra space O(1) under the assumption that there are total 256 possible characters in a string.
+#
+# Note: that original order of characters must be kept same.
+#
+# Input:
+# First line of the input is the number of test cases T. And first line of test case contains a string.
+#
+# Output:
+# Modified string without duplicates and same order of characters.
+#
+# Constraints:
+# 1 <= T <= 15
+# 1 <= |string|<= 1000
+#
+# Example:
+# Input:
+# 2
+# geeksforgeeks
+# geeks for geeks
+#
+# Output:
+# geksfor
+# geks for
+
+str  = "geeks for geeks"
+l = []
+for i in str:
+    if i not in l :
+        l.append(i)
+print("".join(l))
+
+# Given a string S, find length of the longest substring with all distinct characters.  For example, for input "abca", the output is 3 as "abc" is the longest substring with all distinct characters.
+#
+# Input:
+# The first line of input contains an integer T denoting the number of test cases.
+# The first line of each test case is String str.
+#
+# Output:
+# Print length of smallest substring with maximum number of distinct characters.
+# Note: The output substring should have all distinct characters.
+#
+# Constraints:
+# 1 ≤ T ≤ 100
+# 1 ≤ size of str ≤ 10000
+#
+# Example:
+# Input:
+# 2
+# abababcdefababcdab
+# geeksforgeeks
+#
+# Output:
+# 6
+# 7
+
+str = "aldshflasghdfasgfkhgasdfasdgvfyweofyewyrtyefgv"
+l1 = []
+l2 = []
+for i in str:
+    if i in l2:
+        l1.append(len(l2))
+        print(l2)
+        l2 = []
+    else:
+        l2.append(i)
+print(max(l1))
+
+
+
+
