@@ -26,7 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b08b003d-5504-4062-81e9-9e73c7653a82" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/django_project/blog/static/blog/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_project/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_project/users/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonExamples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/crudeapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/crudeapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +49,14 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -58,9 +80,41 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RunManager">
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonExamples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/django_project/django_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/django_project/django_project/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,18 +159,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="junk&#10;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="142" y="0" key="SettingsEditor" timestamp="1594531659155">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="779" y="228" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599899601773">
+      <screen x="72" y="27" width="1848" height="887" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594531659155" />
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594532703978">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="779" y="228" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.887@72.27.1848.887" timestamp="1599899601773" />
+    <state width="1825" height="212" key="GridCell.Tab.0.bottom" timestamp="1604654664144">
+      <screen x="72" y="27" width="1848" height="887" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1594532703978" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1594532108504">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1825" height="212" key="GridCell.Tab.0.bottom/72.27.1848.887@72.27.1848.887" timestamp="1604654664144" />
+    <state width="1825" height="212" key="GridCell.Tab.0.center" timestamp="1604654664142">
+      <screen x="72" y="27" width="1848" height="887" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1594532108504" />
+    <state width="1825" height="212" key="GridCell.Tab.0.center/72.27.1848.887@72.27.1848.887" timestamp="1604654664142" />
+    <state width="1825" height="212" key="GridCell.Tab.0.left" timestamp="1604654664137">
+      <screen x="72" y="27" width="1848" height="887" />
+    </state>
+    <state width="1825" height="212" key="GridCell.Tab.0.left/72.27.1848.887@72.27.1848.887" timestamp="1604654664137" />
+    <state width="1825" height="212" key="GridCell.Tab.0.right" timestamp="1604654664143">
+      <screen x="72" y="27" width="1848" height="887" />
+    </state>
+    <state width="1825" height="212" key="GridCell.Tab.0.right/72.27.1848.887@72.27.1848.887" timestamp="1604654664143" />
+    <state x="277" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1598892645733">
+      <screen x="72" y="27" width="1848" height="887" />
+    </state>
+    <state x="277" y="27" width="1022" height="737" key="SettingsEditor/72.27.1848.887@72.27.1848.887" timestamp="1598892645733" />
+    <state x="686" y="209" width="620" height="522" key="find.popup" timestamp="1604655033513">
+      <screen x="72" y="27" width="1848" height="887" />
+    </state>
+    <state x="686" y="209" width="620" height="522" key="find.popup/72.27.1848.887@72.27.1848.887" timestamp="1604655033513" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
