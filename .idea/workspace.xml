@@ -25,23 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08b003d-5504-4062-81e9-9e73c7653a82" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/django_project/blog/static/blog/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/blog/templates/blog/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/users/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonExamples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/crudeapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/crudeapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/templates/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/DJANGO-CRUDE-APP-MYSQL/employee/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="b08b003d-5504-4062-81e9-9e73c7653a82" name="Default" comment="django sample app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523948361362</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="django sample app">
+      <created>1604670039084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604670039084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,9 +147,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="junk&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="junk&#10;" />
+    <MESSAGE value="django sample app" />
+    <option name="LAST_COMMIT_MESSAGE" value="django sample app" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="172" y="127" width="1648" height="687" key="DiffContextDialog" timestamp="1604670515837">
+      <screen x="72" y="27" width="1848" height="887" />
+    </state>
+    <state x="172" y="127" width="1648" height="687" key="DiffContextDialog/72.27.1848.887@72.27.1848.887" timestamp="1604670515837" />
     <state x="779" y="228" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599899601773">
       <screen x="72" y="27" width="1848" height="887" />
     </state>
@@ -183,6 +179,10 @@
       <screen x="72" y="27" width="1848" height="887" />
     </state>
     <state x="277" y="27" width="1022" height="737" key="SettingsEditor/72.27.1848.887@72.27.1848.887" timestamp="1598892645733" />
+    <state x="835" y="187" width="311" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604670515414">
+      <screen x="72" y="27" width="1848" height="887" />
+    </state>
+    <state x="835" y="187" width="311" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/72.27.1848.887@72.27.1848.887" timestamp="1604670515414" />
     <state x="686" y="209" width="620" height="522" key="find.popup" timestamp="1604655033513">
       <screen x="72" y="27" width="1848" height="887" />
     </state>
