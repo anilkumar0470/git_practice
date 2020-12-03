@@ -10,6 +10,7 @@ class SingleTOne:
     def __new__(cls, *args, **kwargs):
         print("I am in __new__ method")
         if not hasattr(cls, "instance"):
+            print("eee")
             cls.instance = super(SingleTOne, cls).__new__(cls)
         return cls.instance
 

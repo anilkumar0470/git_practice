@@ -55,7 +55,7 @@ def generating_random_number_in_session_level():
 @pytest.fixture(scope="class")
 def generating_random_number():
     print("executing from conftest  file ")
-    return random.randint(0,10)
+    return random.randint(0,100)
 
 
 @pytest.fixture(scope="module")

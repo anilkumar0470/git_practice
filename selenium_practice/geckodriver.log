@@ -1,0 +1,26 @@
+1595251281757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\apathapa\\AppData\\Local\\Temp\\rust_mozprofileNqvC0i"
+1595251310574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\apathapa\\AppData\\Local\\Temp\\rust_mozprofiletu5e9W"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595251314030	Marionette	INFO	Listening on port 62910
+1595251314197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595251318754	Marionette	INFO	Stopped listening on port 62910
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1595251782155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\apathapa\\AppData\\Local\\Temp\\rust_mozprofileyLf50d"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595251785213	Marionette	INFO	Listening on port 55613
+1595251785280	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595251796253	Marionette	INFO	Stopped listening on port 55613
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1597508288578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\apathapa\\AppData\\Local\\Temp\\rust_mozprofileLzirkC"

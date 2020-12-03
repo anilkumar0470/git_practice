@@ -1,6 +1,6 @@
 fd = open("zzz.txt","r")
 f= fd.read(10)
-print f
+print (f)
 for line in fd.readlines():
-    print "line",line
+    print ("line",line)
 fd.close()

@@ -500,3 +500,36 @@ print(max(l1))
 
 
 
+l = [1,2,3,1,1,6,1,1, 5,6,7,8,1,1,1,1]
+# 8
+# 7
+
+#--
+# 6
+
+# for i in l:
+#     print("gg")
+#     print(i)
+#     l.remove(1)
+#     print(l)
+# print(l)
+
+
+a = [1,2,3]
+print("ddd")
+for a[-1] in a:
+    print(a[-1])
+
+x = [1,1,1]
+y = x.count(1)
+print(y)
+x.append(1)
+y = x.count(1)
+print((y))
+
+
+inf_empdata = {11:0,22:0,33:0}
+x =inf_empdata.keys()
+print(len(x))
+inf_empdata[77] = 0
+print(len(x))

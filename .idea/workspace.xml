@@ -25,8 +25,51 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08b003d-5504-4062-81e9-9e73c7653a82" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b08b003d-5504-4062-81e9-9e73c7653a82" name="Default" comment="all_practice_files">
+      <change afterPath="$PROJECT_DIR$/check_imports/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_imports/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_imports/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_imports/new_junk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/interview_mcq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/json_content_usa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/sample_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest/hello_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/conditional_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/explicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/implicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/launching_browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/navigation_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/sample_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/test_basic_commands_webdriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_practice/webdriver_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_tries/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_tries/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/file_operations_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/file_operations_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/file_operations_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/file_operations_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/file_operations_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/file_operations_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/zzz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/file_operations/zzz.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/if_else_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/if_else_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/if_else_example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/if_else_example1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/if_else_example4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/if_else_example4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terralogic_FRESH/while_loop_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Terralogic_FRESH/while_loop_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_and_objects/class_interview_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_and_objects/class_interview_questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_and_objects/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_and_objects/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/decoratos.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator/decoratos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/single_tone.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/single_tone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facto.py" beforeDir="false" afterPath="$PROJECT_DIR$/facto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_programs/interview_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_programs/interview_questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_programs/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_programs/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_compression.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_compression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging/class_example_with_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/logging/class_example_with_logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/decorator/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/sam.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_tries/sam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_tries/sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/schdule.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_tries/schdule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/try.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_tries/try.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +86,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -105,18 +149,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="junk&#10;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="142" y="0" key="SettingsEditor" timestamp="1594531659155">
+    <state x="425" y="43" key="RollbackChangesDialog" timestamp="1606971450369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594531659155" />
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594532703978">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1594532703978" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1594532108504">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1594532108504" />
+    <state x="425" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606971450369" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

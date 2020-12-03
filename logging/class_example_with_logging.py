@@ -1,5 +1,6 @@
 import logging
 
+# warn, debug, info, error, critical
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
