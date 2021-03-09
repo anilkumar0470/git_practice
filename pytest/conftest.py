@@ -17,6 +17,25 @@ def pytest_addoption(parser):
     )
 
 
+def pytest_addoption(parser):
+    parser.addoption("--user_input", action="store", default="10", help="this is  for testing ")
+    parser.addoption("--user_age", action="store", help="age of the student")
+    parser.addoption("--user_name", action="store", help="name of the user ")
+
+
+@pytest.fixture
+def user_name(request):
+    return request.config.getoption("--user_name")
+
+@pytest.fixture
+def user_input(request):
+    return request.config.getoption("--user_input")
+
+@pytest.fixture
+def user_age(request):
+    return request.config.getoption("--user_age")
+
+
 @pytest.fixture
 def cmdopt(request):
     return request.config.getoption("--cmdopt")
@@ -41,7 +60,7 @@ def cmdopt(request):
 #
 #     request.addfinalizer(some_resource_fin)
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="session")
 def generating_random_number_in_module_level():
     print("executing from conftest  file ")
     return random.randint(0,10)
@@ -53,12 +72,12 @@ def generating_random_number_in_session_level():
 
 
 @pytest.fixture(scope="class")
-def generating_random_number():
+def generating_random_numbero():
     print("executing from conftest  file ")
     return random.randint(0,100)
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="session")
 def scope_of_fixture_at_module_level():
     import random
     return random.randint(0,10)
