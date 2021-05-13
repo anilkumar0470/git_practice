@@ -179,10 +179,76 @@ import signal
 
 
 
-result = subprocess.run(['netstat', '-aon'], stdout=subprocess.PIPE)
-print(result.stdout)
-pattern = '\d.\d.\d.\d:("port_number")\s*\d\.\d\.\d\.\d:\d+\s*LISTENING\s*(\d+)'
-match = re.search(pattern, result.stdout.decode("utf-8"))
-if match:
-    print(match.group(1), match.group(2))
-    os.kill(match.group(2), signal.SIGTERM)
+# result = subprocess.run(['netstat', '-aon'], stdout=subprocess.PIPE)
+# print(result.stdout)
+# pattern = '\d.\d.\d.\d:("port_number")\s*\d\.\d\.\d\.\d:\d+\s*LISTENING\s*(\d+)'
+# match = re.search(pattern, result.stdout.decode("utf-8"))
+# if match:
+#     print(match.group(1), match.group(2))
+#     os.kill(match.group(2), signal.SIGTERM)
+
+
+# def decorate_function100(original_function):
+#     def wrapper():
+#         print("wrapper first")
+#         return original_function()
+#     return wrapper
+#
+# @decorate_function100
+# def disp(a,b):
+#     print("second")
+# disp(10,20)
+
+
+
+# def my_decorator(func):
+#
+#
+#     def wrapper():
+#         print("i am inside wrapper function")
+#         func()
+#
+#     return wrapper
+#
+# def say_hello():
+#
+#     print("hello")
+#
+#
+# say_hello  = my_decorator(say_hello)
+# say_hello()
+
+
+# def my_decorator(func):
+#     def wrapper():
+#         print("I am in wrapper")
+#         func()
+#     return wrapper
+#
+# @my_decorator
+# def say_hi():
+#     print("hii")
+# say_hi()
+
+
+def my_decorator(original_func):
+
+    def test_wrapper():
+        print("test wrapper")
+        original_func()
+    return test_wrapper
+
+@my_decorator
+def display():
+    print("display")
+display()
+
+# def new_decorator(actual_function):
+#
+#     def wrapper_do_twice(*args, **kwargs):
+#         print("i am in wrapper")
+#         actual_function(*args, **kwargs)
+#         actual_function(*args, **kwargs)
+#     return wrapper_do_twice
+
+

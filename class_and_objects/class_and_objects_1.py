@@ -9,6 +9,7 @@ class methods are the one which will take class name as first argument (cls)
 static methods are the one which will not take any instance or class name
 and we will use these methods when we dont want use any instance or class name in the method
 """
+
 # class Employee:
 #
 #     def __init__(self,fname, lname, pay):

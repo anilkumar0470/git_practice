@@ -27,7 +27,7 @@ s1 = SingleTOne("anil", 26)
 print(s1)
 s1.display()
 
-s2 = SingleTOne("valli", 23)
+s2 = SingleTOne("kumar", 23)
 print(s2)
 s2.display()
 

@@ -4,10 +4,12 @@ str1 = 'purple alice-b@google.com monkey dishwasher'
 
 match = re.search(r'([\w.-_]+)@([\w.]+)',str1)
 if match:
-    print match.group()
-    print match.group(1)
-    print match.group(2)
+    print (type(match.group()))
+    print (match.group(1))
+    print (match.group(2))
+    print(match.groups())
 """
+
 t ='abc abc abc abd'
 p = '[\w\s]+'
 p1=re.search(p,t)

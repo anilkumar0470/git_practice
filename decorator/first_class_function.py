@@ -1,5 +1,5 @@
-#first class functions
-#it treat functions as first class citizenship
+# first class functions
+# it treat functions as first class citizenship
 # is an entity wich supports all the general operations available for other entities.
 # passed as argument
 # return as argument
@@ -93,7 +93,7 @@ def connect(original_function):
     print("decorator function here")
     print(original_function.__name__)
 
-    def wrapper(*args , **kwargs):
+    def wrapper(*args, **kwargs):
         print("wrapper will be executed first ")
         return original_function(*args, **kwargs)
     return wrapper
@@ -102,3 +102,27 @@ def connect(original_function):
 def execute_command(command):
     print("command executed successfully!! {}".format(command))
 execute_command("ls")
+
+
+
+def sample_decorator(actual_function):
+
+    def wrapper():
+        print("wrapper will be executed sec")
+        return actual_function()
+    return wrapper
+
+
+def sample_decorator_first(actual_function):
+
+    def wrapper():
+        print("wrapper will be executed first")
+        return actual_function()
+    return wrapper
+
+
+@sample_decorator_first
+@sample_decorator
+def display():
+    print("hello")
+display()

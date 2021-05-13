@@ -99,6 +99,63 @@ print(NSAP_ID)
 
 
 
+# l = [1,5,6,1,2,4,2]
+# # d =  {1:2, 5:1,....}
+# d = {}
+# for i in l:
+#     if i not in d:
+#         d[i] = l.count(i)
+# # print(d)
+
+
+
+
+# l1 =[1,0,0,1,1,0,1,0,1]
+# # 1 1 1 1 1 = 5
+# count = 0
+# initial_value = l1[0]
+# for i in range(1, len(l1)):
+#     if l1[i] != initial_value:
+#         count = count + 1
+#         initial_value = l1[i]
+#     else:
+#         initial_value = l1[i]
+#
+# print(count)
+
+
+# fd1 = open("sample.txt", "r")
+# fd2 = open("hello.txt", "w")
+# lines = fd1.readlines()
+# for line in lines:
+#     if len(line) > 1 and line != "\n":
+#         fd2.write(line)
+#         fd2.write("\n")
+# fd1.close()
+# fd2.close()
+
+list = [x if i%2 == 0 else None  for x in range(10, 50) for i in range(2,x)]
+print(list)
+# l2  = []
+# for i in range(10):
+#     if :
+#         l2.append()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -106,3 +106,5 @@ logger.debug("the divison of x {} by y {} is {}".format(x, y, div1))
 
 
 # Exception method in logger will allow to add traceback also into the log
+
+
