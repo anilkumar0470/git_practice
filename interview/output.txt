@@ -1,0 +1,14 @@
+total 48
+drwxrwxr-x 4 test test 4096 May 28 06:16 .
+drwxrwxr-x 8 test test 4096 Apr 24 10:12 ..
+-rw-rw-r-- 1 test test 3805 May 28 06:16 hello.py
+-rw-rw-r-- 1 test test  121 May 24 13:30 hello.txt
+drwxrwxr-x 3 test test 4096 May 28 06:07 .idea
+drwxrwxr-x 2 test test 4096 May 24 14:23 interview_questions
+-rw-rw-r-- 1 test test 1507 May 25 19:21 interview_questions.py
+-rw-rw-r-- 1 test test  867 May 24 14:12 interview_questions.txt
+-rw-rw-r-- 1 test test 1154 May 24 14:22 interview_questions.zip
+-rw-rw-r-- 1 test test  528 Apr 22 17:26 main.py
+-rw-rw-r-- 1 test test    0 May 28 06:16 output.txt
+-rw-rw-r-- 1 test test  106 May 24 12:57 sample_backup.txt
+-rw-rw-r-- 1 test test  121 May 24 14:12 sample.txt
