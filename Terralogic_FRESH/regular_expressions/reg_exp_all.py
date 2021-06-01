@@ -7,6 +7,8 @@ if match:
     print (type(match.group()))
     print (match.group(1))
     print (match.group(2))
+
+    print(match.group())
     print(match.groups())
 """
 

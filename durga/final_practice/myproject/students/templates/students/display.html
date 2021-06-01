@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    {% for student in form %}
+    <div>
+        {{ student.name }}
+        {{ student.phonenumber }}
+        {{ student.standard }}
+        {{ student.address }}
+    </div>
+    {% endfor %}
+
+</body>
+</html>

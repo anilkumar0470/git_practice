@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        {% for detail in all_info %}
+        <div>{{ detail.website }}</div>
+        <div>   {{ detail.name }}</div>
+        <div>    {{ detail.mail }} </div>
+        <div>    {{ detail.phonenumber }}</div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>

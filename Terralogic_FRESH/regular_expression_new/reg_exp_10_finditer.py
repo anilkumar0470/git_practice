@@ -5,5 +5,6 @@ pattern = '\d+.\d+.\d+.\d+'
 for match in re.finditer(pattern,text):
     s = match.start()
     e = match.end()
-    #print "found %s==%s at %d:%d" %(match.re.pattern,text[s:e],s,e)
-    print match.re.pattern,text[s:e],"starting index",s,"ending index",e
+    # #print "found %s==%s at %d:%d" %(match.re.pattern,text[s:e],s,e)
+    print (match.re.pattern,text[s:e],"starting index",s,"ending index",e)
+    print(match.re.pattern)

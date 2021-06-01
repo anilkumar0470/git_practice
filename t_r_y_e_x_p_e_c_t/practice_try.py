@@ -1,6 +1,6 @@
 ab = 10
 try:
-    print(a)
+    print(ab)
 except:
     pass
 else:

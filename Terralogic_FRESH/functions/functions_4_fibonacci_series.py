@@ -33,3 +33,11 @@ for i in range(20):
     print(c) # c value
     b = a  #
     a = c
+
+a,b = 0,1
+print(a)
+for i in range(10):
+    c = a + b
+    print(c)
+    b = a
+    a =c

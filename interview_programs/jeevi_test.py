@@ -468,6 +468,7 @@ print(list_4)
 
 
 
-
+list1 = [x  if x%2 == 0  else x*x for x in range(10)]
+print(list1)
 
 
