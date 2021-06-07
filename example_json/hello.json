@@ -1,0 +1,69 @@
+{
+  "CU": {
+    "messages": [
+      {
+        "f1setuprequest_element": "F1SetupRequest"
+      },
+      {
+        "ngap_pdu": "0",
+        "slicesupportitem_element": "SliceSupportItem",
+        "e212_mnc": "*",
+        "gnb_id": "0",
+        "supportedtalist": "1",
+        "tac": "1",
+        "id": "27",
+        "plmnidentity": "*",
+        "broadcastplmnitem_element": "BroadcastPLMNItem",
+        "supportedtaitem_element": "SupportedTAItem",
+        "globalgnb_id_element": "globalGNB-ID",
+        "sst": "03",
+        "ngsetuprequest_element": "NGSetupRequest",
+        "taislicesupportlist": "1",
+        "procedurecode": "21",
+        "e212_mcc": "*",
+        "initiatingmessage_element": "initiatingMessage",
+        "globalrannodeid": "0",
+        "broadcastplmnlist": "1",
+        "s_nssai_element": "s-NSSAI",
+        "pagingdrx": "0",
+        "sd": "03:06:09"
+      },
+      {
+        "ngap_pdu": "*",
+        "slicesupportitem_element": "SliceSupportItem",
+        "e212_mnc": "*",
+        "amfname": "RadisysAMF",
+        "amfsetid": "01:80",
+        "plmnsupportitem_element": "PLMNSupportItem",
+        "guami_element": "gUAMI",
+        "plmnidentity": "*",
+        "plmnsupportlist": "1",
+        "backupamfname": "RSYS_AMF_1",
+        "sst": "*",
+        "procedurecode": "21",
+        "successfuloutcome_element": "successfulOutcome",
+        "servedguamiitem_element": "ServedGUAMIItem",
+        "ngsetupresponse_element": "NGSetupResponse",
+        "relativeamfcapacity": "255",
+        "amfregionid": "09",
+        "servedguamilist": "1",
+        "e212_mcc": "*",
+        "amfpointer": "0c",
+        "s_nssai_element": "s-NSSAI",
+        "sd": "*",
+        "slicesupportlist": "*"
+      },
+      {
+        "f1setupresponse_element": "F1SetupResponse"
+      },
+      {
+        "gnbduconfigurationupdate_element": "GNBDUConfigurationUpdate"
+      },
+      {
+        "successfuloutcome_element": "successfulOutcome",
+        "gnbduconfigurationupdateacknowledge_element": "GNBDUConfigurationUpdateAcknowledge"
+      }
+    ],
+    "order": true
+  }
+}

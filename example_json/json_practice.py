@@ -23,12 +23,16 @@ import json
 # print(new_string)
 # print(type(new_string))
 
-with open('sample.json') as f:
-    data = json.load(f)
+# with open('sample.json') as f:
+#     data = json.load(f)
+# 
+# for state in data['states']:
+#     print(state['name'])
+#     del state['area_codes']
+# 
+# with open('new_states.json', 'w') as fd:
+#     json.dump(data, fd, indent=2)
 
-for state in data['states']:
-    print(state['name'])
-    del state['area_codes']
 
-with open('new_states.json', 'w') as fd:
-    json.dump(data, fd, indent=2)
+import pandas as pd
+
