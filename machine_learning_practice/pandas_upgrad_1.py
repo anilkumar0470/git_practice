@@ -1,6 +1,7 @@
 # pandas is built by using the numpy for data analysis.
 # in pandas we will have two important things . data frame and series
-# in numpy we will do operations on each element where as in the series we will do iterations and series will hold may
+# in numpy we will do operations on each element where as in the series we will do iterations and
+# series will hold may
 # not data it will hold meta data index .
 # series : similar to 1-d array containing scalar values of same type
 # data frame: 2d array  is a simply table where each column is a series.
