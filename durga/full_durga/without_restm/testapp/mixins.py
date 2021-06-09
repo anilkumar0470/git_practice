@@ -2,6 +2,7 @@ from django.core.serializers import serialize
 import json
 from django.http import HttpResponse
 
+
 class SerializeMixin(object):
 
     def serialize(self, qs):

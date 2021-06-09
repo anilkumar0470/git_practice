@@ -50,3 +50,16 @@ def make_greeting(name, age=None):
     else:
         return f"Whoa {name}! {age} already, you are growing up!"
 make_greeting("Anil kumar pathapati")
+
+
+
+def sample_decorator(original_function):
+    def wrapper_function(*args, **kwargs):
+        print(" i am inside wrapper")
+        original_function()
+    return wrapper_function
+
+@sample_decorator
+def display():
+    print("hello")
+display()

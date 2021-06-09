@@ -17,9 +17,16 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from contact.views import contactus
+from employee import views as employee_views
+from django.contrib.auth import views as auth_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('students.urls')),
     # path('contactme/', contactus, name='contact-me'),
     path('junk/', include('contact.urls'), name='contact-me'),
+    path('employee_details/', employee_views.display_employee_details, name='employee-details'),
+    path('add_employee/', employee_views.add_employee, name='add-employee'),
+    path('register/', include('users.urls')),
+    path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 ]
