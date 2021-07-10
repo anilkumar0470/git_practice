@@ -116,7 +116,7 @@ print()
 import copy
 
 l1 = [1,2,3,[4,5,6]]
-l2 = l1.copy()
+l2 = l1
 l2[3][0] = 9
 print("l1", id(l1))
 print("l2", id(l2))
@@ -124,9 +124,36 @@ print("l2", id(l2))
 print(l1)
 print(l2)
 
-class Sam():
-    def __init__(self):
-        print(self)
+# class Sam():
+#     def __init__(self):
+#         print(self)
+#
+# s = Sam()
+# print(s)
 
-s = Sam()
-print(s)
+
+str = "good evening"
+a = 5
+b = 10
+def sample_decorator(original_fun):
+    def wrapper_func(a,b, string ):
+        return_value = original_fun(a,b,string)
+        return return_value
+    return wrapper_func
+@sample_decorator
+def sum(a,b, string):
+    return a + b, string
+
+a,b = 1, 2
+string = "good evning"
+print(sum(a,b, string))
+
+
+for i in range(4):
+    for j in range(3):
+        print("0", end=" ")
+    print()
+
+a = int
+b = input
+print(a,b)

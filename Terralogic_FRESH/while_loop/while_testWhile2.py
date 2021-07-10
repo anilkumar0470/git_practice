@@ -3,4 +3,4 @@
 i = 4
 while (i < 9):
     i = i+2
-    print i
+    print (i) # 6 8 10

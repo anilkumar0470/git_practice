@@ -52,14 +52,42 @@ def merge_sorted_list(list1, list2):
 def minimum_change(denos , total):
     n = len(denos)
     i = n - 1
-    ans = []
-    while i >=0:
-        while total >= denos[i]:
-            value = denos[i]
-            total = total - denos[i]
-            ans.append(str(denos[i]))
+    ans1 = []
+    for ki in range(10):
+        ans = []
+        while i >=0:
+            while total >= denos[i]:
+                total = total - denos[i]
+                ans.append(str(denos[i]))
 
-        i = i -1
-    out = " ".join(ans)
-    return out
-print(minimum_change([1,2,5,10,20,50,100], 99))
+            i = i -1
+            ans1.append(ans)
+    print(ans1)
+print(minimum_change([1,2,3,4,5], 6))
+print(minimum_change([1,2,3,4,5], 6))
+
+str1 = 'mindtree is software company'
+
+def get_max_char_occ(in_str):
+   try:
+      if len(in_str) == 0 or len(in_str) == 1:
+         raise Exception("Length should be min. 2 chars")
+      if type(in_str) != str:
+         raise Exception("Data should be in string format")
+      char_count = {}
+      for char in in_str:
+         if char == ' ':
+            continue
+         if char not in char_count.keys():
+            char_count[char] = 1
+         else:
+            char_count[char] += 1
+      print(char_count)
+      max_char = max(char_count,key = lambda x :char_count[x])
+      print("Char and its max occ : ", max_char, "---", char_count[max_char])
+   except Exception as exec:
+      print("Exception details : ",exec)
+
+get_max_char_occ(str1)
+
+

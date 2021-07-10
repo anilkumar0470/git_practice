@@ -159,6 +159,11 @@ print(list)
 
 
 
+def sample(a,b,c):
+    trick = a | b & c
+    print((trick))
+
+sample(24,30,34)
 
 
 
@@ -166,4 +171,35 @@ print(list)
 
 
 
+l = ["a", "b", "c", "d"]
+print(",".join(l))
 
+class A:
+    def __init__(self, a, b, c):
+        self.x = a + b + c
+
+a = A(1,2,3)
+b = getattr(a, 'x')
+setattr(a, 'x', b + 1)
+print(a.x)
+
+
+def hello():
+    pass
+print(type(hello()))
+
+# n = "come,bye,almond,zipper"
+
+n = 5
+for i in range(5):
+new_list = n.split(",")
+print(sorted(new_list))
+
+print(",".join(sorted(new_list)))
+
+
+class Website:
+    URL = "junk, "
+
+    @classmethod
+    def getMostVisitedPages(cls):

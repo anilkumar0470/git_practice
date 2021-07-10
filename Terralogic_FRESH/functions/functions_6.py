@@ -2,17 +2,17 @@
 
 def totalmarks(name,m1,m2,m3):
     total = m1 + m2 + m3
-    print "name",name
-    print "total marks",total
+    print ("name is :",name)
+    print ("total marks: ",total)
 
-totalmarks("anil",78,77,70)
+# totalmarks("anil",78,77,70)
 
 
-def something(name,*marks):
-    print "name",name
+def something(name, *marks):
+    print ("name is : ",name)
+    print(type(marks))
     total = 0
-    print type(marks)
     for i in marks:
         total = total + i
-    print "total:",total
-something("anil",70,45,65,45)
+    print( "total:",total)
+something("anil",70,45,65,45,9, 454, 5454,6767)

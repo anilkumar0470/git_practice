@@ -3,7 +3,7 @@
 # 2.class methods
 # 3.static methods
 """
-relgular methods are one which will take instance or object of class as first argument
+regular methods are one which will take instance or object of class as first argument
 i.e self
 class methods are the one which will take class name as first argument (cls)
 static methods are the one which will not take any instance or class name

@@ -1,7 +1,7 @@
 # fixtures are simillar to functions we will use to do some operations in the initial it self.
 # it is kind of setup which is used is to coneect some device orr connecting data base
 # by default the scope of the fixture is function
-#  the scope of fixture can be function, module, session, and module
+# the scope of fixture can be function, module, session, and module
 
 # Module: If the Module scope is defined, the fixture will be created/invoked only once per module.
 # it will execute only once for file module is nothing but python file

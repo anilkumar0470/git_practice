@@ -18,3 +18,5 @@ from hai import junk, test
 #
 # def sample3():
 #     print("sample3")
+
+fd = open()
