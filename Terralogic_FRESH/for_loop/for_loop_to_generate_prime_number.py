@@ -22,11 +22,16 @@
 #         print("prime number {}".format(num))
 
 # num = 7
-for num in range(10, 20):
-    for i in range(2, num):
-        if num % i == 0:
-            print("given number is not  prime number")
+# for num in range(100, 200):
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("given number  {} is not  prime number".format(num))
+#
+#             break
+#     else:
+#
+#         print("given number {} is prime number".format(num))
 
-            break
-    else:
-        print("given number {} is primenumber".format(num))
+
+while True:
+    print("good morning")

@@ -1,4 +1,6 @@
-for i in (1,2,3):
-    print i
 
+
+list1 = range(10)
+for j in list1:
+    print(j)
 

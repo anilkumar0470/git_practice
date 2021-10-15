@@ -10,8 +10,7 @@ while testAnswer == 'y' or testAnswer.lower() == 'yes' :
     lines.append(line)
     testAnswer = input('Press y if you want to enter more lines: ')
 
-# print('Your lines were:')
-# for line in lines:
-#     print (line)
 print(lines)
 
+
+range(100)

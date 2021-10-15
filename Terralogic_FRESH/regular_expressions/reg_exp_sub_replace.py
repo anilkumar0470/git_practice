@@ -19,7 +19,21 @@ str = re.sub(r'([\w.]+):([\d/\d/\d-]+)',r'\1:2016',str)
 print re.sub(r'([\w.]+)=([\d/\d/\d-]+)',r'\1=1993',str)
 """
 import re
-str2 = 'purple alice.b--abc@gmail.com, blah monkey bob@gmail.com blah dishwasher'
+str2 = 'purple alice.b--abc@gmail.com, blah monkey bob_test@gmail.com blah dishwasher'
+
+output = re.sub('([\w\.\_\-]+)@([\w\.\_\-]+)',r'test@\2',str2)
+print(str2)
+print (output)
+
+
+
+
+
+
+
+#search/match/findall -- pattern, text
+# sub pattern -- replaced string , string
+# #
+#
+
 #print re.sub(r'([\w\-.]+)@([\w\.-]+)',r'\1@anil.com',str2)
-print re.sub(r'([\w\.\_\-]+)@([\w\.\_\-]+)',r'\1@teralogic.com',str2)
-print str2

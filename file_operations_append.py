@@ -13,3 +13,5 @@ def append_file(filename):
     print "After write ----",fd.tell()
     fd.close()
 append_file("abc11.txt")
+# __enter__
+# __exit___

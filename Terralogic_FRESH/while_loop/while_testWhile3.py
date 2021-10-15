@@ -3,8 +3,7 @@
 nums = []
 i = 4
 while (i < 9):
-    nums.append(i) # 4 6 8
+    nums.append(i)
     i = i+2
-
 
 print (nums)

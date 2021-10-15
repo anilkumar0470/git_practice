@@ -4,7 +4,9 @@ def details(name,age,loc):
     print ("diplaying name,age and location")
     print( "Name:",name,"Age:",age,"Location:",loc)
 
-details(age = 44,loc = "Hyderabad")
+details(age="13", loc="bangalore",name="test")
+
+
 
 
 

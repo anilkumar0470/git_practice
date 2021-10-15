@@ -3,15 +3,15 @@
 
 import re
 text = "welcome to all"
-pattern = "to"
+pattern = "wec"
 match = re.match(pattern,text)
-print match
+print (match)
 
 #output is :None
 
-import re
-text = "welcome to all"
-pattern = "wel"
-result = re.match(pattern,text)
-print result
-print result.group()
+# import re
+# text = "welcome to all"
+# pattern = "wel"
+# result = re.match(pattern,text)
+# print result
+# print result.group()

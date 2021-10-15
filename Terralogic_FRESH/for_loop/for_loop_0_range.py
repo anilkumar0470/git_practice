@@ -123,9 +123,48 @@ str = "Hello good morning have a great day"
 #
 #
 
-def sample():
+# def sample():
+#
+#     return "anil", "kumar"
+#
+# s = sample()
+# print(s[0])
 
-    return "anil", "kumar"
 
-s = sample()
-print(s[0])
+d = {
+    "ifinfo":[{
+        "name": "lan4",
+        "loc":"bang"
+
+    }]
+}
+# l = {}
+# for key in d.keys():
+#     print(key)
+#     for element in d[key]:
+#         if "name" in element:
+#             l.update({element["name"]: d[key]})
+# print(l)
+
+dd = {"info":[{
+      "ifname": "lan15",
+      "admin": True,
+      "oper": False,
+    },
+    {
+      "ifname": "wan14",
+      "publicIp": "",
+      "supported": ""
+    },
+    {
+      "ifname": "lan2",
+      "publicIp": "",
+      "supported": ""
+    }]}
+
+dict = {}
+for index, value in enumerate(dd.keys()):
+    for element in dd[value]:
+        if "ifname" in element :
+            dict.update({element["ifname"]: element})
+print(dict)

@@ -7,5 +7,11 @@
     <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Katanaframework" />
+    <orderEntry type="module" module-name="course-api-framework-python" />
+    <orderEntry type="module" module-name="robot_framework" />
+    <orderEntry type="module" module-name="ace_codebase" />
+    <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="junk" />
+    <orderEntry type="module" module-name="pbx_perf_regression" />
   </component>
 </module>

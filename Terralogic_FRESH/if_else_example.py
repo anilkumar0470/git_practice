@@ -1,14 +1,19 @@
-#Example for if block only
+# Example for if block only
+#
+# Condition / expresion is Boolean value or conditional data type or val
+# a = 0 # False
 
-#Condition / expresion is Boolean value or conditional data type or val
-
+a = 99999 # True
 
 a = 10
 
 if a:
-    print("i am in if block")
-else:
-    print(" i am in else block ")
+    print(" a value is True")
+else :
+    print("a value is False ")
+
+
+
 
 
 
@@ -20,13 +25,13 @@ else:
 # if True:
 #     print ("Good After Noon")
 #     print ("Welcome to every one")
-
-a = 18
-b = 10
-if a < b:
-    print ("Good bye::")
-else:
-    print(" iam here")
+#
+# a = 18
+# b = 100
+# if a < b: # 18 < 100
+#     print ("Good bye::")
+# else:
+#     print(" iam here")
 #
 # if 5665:
 #     print ("I am in if block")
@@ -53,5 +58,5 @@ else:
 # if not flag:
 #     print("invalid")
 
-a = "ababadfdfdaba"
-a = "aba12bdd 1234456fha1234567fdfhakdf1234fdfd"
+# a = "ababadfdfdaba"
+# a = "aba12bdd 1234456fha1234567fdfhakdf1234fdfd"

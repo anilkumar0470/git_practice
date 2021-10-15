@@ -63,7 +63,75 @@ for row in d:
     if row["lead"]:
         if row["lead"] not in all_email_id_list:
             all_email_id_list.append(row["lead"])
-print(all_email_id_list)
-list2 = ['test@gmail.com', "hello@gmail.com"]
-all_email_id_list.extend(list2)
-print(all_email_id_list)
+# print(all_email_id_list)
+# list2 = ['test@gmail.com', "hello@gmail.com"]
+# all_email_id_list.extend(list2)
+# print(all_email_id_list)
+
+# assigning function to another variable
+
+def sample(num):
+    return num + 1
+
+num = sample
+print(num(5))
+
+# defining functions inside function
+
+def outer_function(num):
+    def inner_function(num):
+        return num + 1
+    return inner_function(num)
+print(outer_function(4))
+
+
+# returning the function
+
+# def hello_function():
+#     def say_hi():
+#         return "dfdfdf"
+#     return say_hi
+# result = hello_function()
+# print(result())
+
+
+def hello_function():
+    def say_hi():
+        return "hello"
+    return say_hi
+res = hello_function()
+print(res())
+
+
+def sample_decorator(original_function):
+    def wrapper_function():
+        func = original_function()
+        make_upper = func.upper()
+        return make_upper
+    return wrapper_function
+
+
+# def display():
+#     return "good evening"
+#
+# res = sample_decorator(display)
+# print(res)
+# print(res())
+@sample_decorator
+def another_function():
+    return "test string"
+
+print(another_function())
+
+
+
+# def sample_decorator(original_func):
+#     def wrapper():
+#         print("i am inside wrapper")
+#         original_func()
+#     return wrapper
+#
+# @sample_decorator
+# def test_display():
+#     print("i am inside function")
+# test_display()

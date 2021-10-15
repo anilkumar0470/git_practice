@@ -1,8 +1,8 @@
 ab = 10
 try:
-    print(ab)
-except:
-    pass
+    print(abc)
+except :
+    print(c)
 else:
     print("rrr")
 finally:

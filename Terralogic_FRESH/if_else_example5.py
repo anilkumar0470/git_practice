@@ -1,10 +1,10 @@
 #Example for if elif else
-print "Example fo if elif else"
+print ("Example fo if elif else")
 
-n = input("enter n value")
+n = 3
 
-if n ==1:
-    print "n value is :1"
+if n == 1:
+    print ("n value is :1")
 elif n == 2:
     print "n value is :2"
 elif n == 3:

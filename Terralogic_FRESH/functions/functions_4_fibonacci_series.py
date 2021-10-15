@@ -9,10 +9,11 @@ def fibonacci_series(num):
         b = a # 0  1  1
         a = c # 1  1  2   2
 
+
 # num = input("enter a number:")
 fibonacci_series(10)
-print("*"*50)
-fibonacci_series(20)
+# print("*"*50)
+# fibonacci_series(20)
 #
 #
 # a = 0

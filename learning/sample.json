@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "feature_name": "DB_Migration",
+            "severity": "Low",
+            "percentage": 0.57,
+            "line_changes": 14,
+            "jira_changes": 0,
+            "sales_change": 0
+        },
+        {
+            "feature_name": "UX",
+            "severity": "Low",
+            "percentage": 0.25,
+            "line_changes": 0,
+            "jira_changes": 2,
+            "sales_change": 0
+        }
+    ]
+}
