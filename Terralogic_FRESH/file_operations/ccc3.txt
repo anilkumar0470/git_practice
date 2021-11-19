@@ -1,0 +1,5 @@
+________student________details
+anil
+age22
+locationbtm
+592

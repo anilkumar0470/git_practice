@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210624 13:30:57.407" generator="Robot 3.1.1 (Python 2.7.18 on win32)">
+<suite source="C:\Users\pathapaa\Videos\git_practice\robot_practice\sample.robot" id="s1" name="Sample">
+<test id="s1-t1" name="Testcase1">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${42.42}</arg>
+</arguments>
+<assign>
+<var>${calculatedTotalPrice}</var>
+</assign>
+<msg timestamp="20210624 13:30:57.460" level="INFO">${calculatedTotalPrice} = 42.42</msg>
+<status status="PASS" endtime="20210624 13:30:57.460" starttime="20210624 13:30:57.460"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${43.15}</arg>
+</arguments>
+<assign>
+<var>${productPrice1}</var>
+</assign>
+<msg timestamp="20210624 13:30:57.461" level="INFO">${productPrice1} = 43.15</msg>
+<status status="PASS" endtime="20210624 13:30:57.461" starttime="20210624 13:30:57.461"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${calculatedTotalPrice}+${productPrice1}</arg>
+</arguments>
+<assign>
+<var>${calculatedTotalPrice}</var>
+</assign>
+<msg timestamp="20210624 13:30:57.462" level="INFO">${calculatedTotalPrice} = 85.57</msg>
+<status status="PASS" endtime="20210624 13:30:57.462" starttime="20210624 13:30:57.462"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${calculatedTotalPrice}</arg>
+</arguments>
+<status status="PASS" endtime="20210624 13:30:57.464" starttime="20210624 13:30:57.463"></status>
+</kw>
+<status status="PASS" endtime="20210624 13:30:57.464" critical="yes" starttime="20210624 13:30:57.459"></status>
+</test>
+<test id="s1-t2" name="Testcase2">
+<kw name="Sample" library="common_lib">
+<arguments>
+<arg>hi everyone</arg>
+</arguments>
+<msg timestamp="20210624 13:30:57.467" level="INFO">**************************************************
+hi everyone
+**************************************************</msg>
+<status status="PASS" endtime="20210624 13:30:57.467" starttime="20210624 13:30:57.466"></status>
+</kw>
+<status status="PASS" endtime="20210624 13:30:57.467" critical="yes" starttime="20210624 13:30:57.466"></status>
+</test>
+<status status="PASS" endtime="20210624 13:30:57.467" starttime="20210624 13:30:57.410"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Sample" pass="2">Sample</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
