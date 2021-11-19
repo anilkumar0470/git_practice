@@ -21,4 +21,5 @@ urlpatterns = [
     path('api/<int:id>/', views.EmployeeDetailCBV.as_view()),
     # path('api/', views.EmployeeListCBV.as_view()),
     path('newapi/', views.EmployeeCRUDCBV.as_view()),
+    path('', views.home),
 ]

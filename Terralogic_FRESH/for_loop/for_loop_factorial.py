@@ -17,15 +17,16 @@
 # print(type(num))
 
 # 5 * 4 * 3 * 2 * 1
-# factorial = 1
-# if num < 0:
-#     print("factorial does not exist for negative numbers")
-# elif num == 0:
-#     print("the factorial is 1 for zero")
-# else:
-#     for i in range(1,num + 1): # 1,2,3,4,5 i =5
-#         factorial = factorial * i # 2 * 3 = 6  =24 * 5 = 120
-#     print("factorial is ",factorial)
+num = 5
+factorial = 1
+if num < 0:
+    print("factorial does not exist for negative numbers")
+elif num == 0:
+    print("the factorial is 1 for zero")
+else:
+    for i in range(1,num + 1): # 1,2,3,4,5 i =5
+        factorial = factorial * i # 2 * 3 = 6  =24 * 5 = 120
+    print("factorial is ",factorial)
 
 
 a = 0

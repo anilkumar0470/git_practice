@@ -69,3 +69,14 @@ class Geek():
 print(Geek())
 
 
+
+list1 = [10,20,13,10,20,23,234,2344,10]
+# 10, 20, 13, 23, 234, 2344
+
+for element in list1:
+    occ = list1.count(element)
+    if occ > 1:
+        for i in range(occ-1):
+            list1.remove(element)
+
+print(list1)

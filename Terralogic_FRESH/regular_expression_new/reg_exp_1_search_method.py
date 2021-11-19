@@ -1,4 +1,5 @@
 #This is an example for search method
+# https://blog.finxter.com/python-regex-greedy-vs-non-greedy-quantifiers/
 import re
 #
 # fd = open("aaa.txt", "r")

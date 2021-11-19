@@ -1,4 +1,4 @@
-num = 5
+num = 50
 
 
 for i in range(2,num): # 2,3,4,5,6
@@ -7,6 +7,7 @@ for i in range(2,num): # 2,3,4,5,6
         break
 else:
     print ("given number is prime number ")
+
 
 
 

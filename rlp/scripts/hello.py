@@ -11,11 +11,17 @@ class Login_function:
         yaml_out = yaml.safe_load(stream)
 
 
+    # load the json file
+    # json, os and requests
+
+
+
     def connect(self,device,prompt=None):
+         # telnet 19.1.1.1 22 # ssh username@ip
         out = pexpect.popen_spawn.PopenSpawn("telnet {} {}".format(device["connections"]["ip"],device["connections"]["port"], timeout=120))
-        import pdb
-        pdb.set_trace()
-        out.sendline("\r")
+        # import pdb
+        # pdb.set_trace()
+        out.sendline("")
         out.sendline("\r")
 
         time.sleep(2)
@@ -23,7 +29,7 @@ class Login_function:
         while count == 8:
             import pdb
             pdb.set_trace()
-            i = out.expect(["Username","Password",">","config","#","refused"])
+            i = out.expect(["username","password",">","config","#","refused", "$"])
             if i == 0 :
                 print ("value is  {}".format(i))
                 out.sendline(device["credentials"]["username"])
@@ -95,7 +101,7 @@ class Login_function:
                 line_number = str(device["connections"]['port'])[2:]
 
                 child.sendline("clear line {}".format(line_number))
-                child.expect('[confirm]')
+                child.expect("[]")
                 child.sendline('\r')
                 child.expect('#')
                 child.sendline('exit')

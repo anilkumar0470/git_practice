@@ -10,6 +10,13 @@ from .forms import EmployeeForm
 from django.http import HttpResponse
 
 
+def home(request):
+
+    return render(request, 'index.html')
+
+
+
+
 class EmployeeCRUDCBV(RenderHttpResponse, SerializeMixin,View):
     def get_object_by_id(self, id):
         try:
@@ -28,21 +35,25 @@ class EmployeeCRUDCBV(RenderHttpResponse, SerializeMixin,View):
 
     def get(self, request, *args, **kwargs):
         data = request.body
-        valid_json = self.is_valid_json(data)
-        if not valid_json:
-            json_data = {"msg": "data must be json only"}
-            return HttpResponse(json_data, content_type='application/json', status=400)
-        pdata = json.loads(data)
-        emp_id = pdata.get("id", None)
-        print("@@@@@ {}".format(emp_id))
-        if emp_id is not None:
-            emp = self.get_object_by_id(id=emp_id)
-            print("Eere {}".format(emp))
-            if emp is None:
-                json_data = json.dumps({"msg":"specified resource is not available"})
+        print("333")
+        import pdb
+        # pdb.set_trace()
+        if data:
+            valid_json = self.is_valid_json(data)
+            if not valid_json:
+                json_data = {"msg": "data must beeee json only"}
+                return HttpResponse(json_data, content_type='application/json', status=400)
+            pdata = json.loads(data)
+            emp_id = pdata.get("id", None)
+            print("@@@@@ {}".format(emp_id))
+            if emp_id is not None:
+                emp = self.get_object_by_id(id=emp_id)
+                print("Eere {}".format(emp))
+                if emp is None:
+                    json_data = json.dumps({"msg":"specified resource is not available"})
+                    return HttpResponse(json_data, content_type='application/json')
+                json_data = self.serialize([emp,])
                 return HttpResponse(json_data, content_type='application/json')
-            json_data = self.serialize([emp,])
-            return HttpResponse(json_data, content_type='application/json')
         qs = Employee.objects.all()
         json_data = self.serialize(qs)
         return HttpResponse(json_data, content_type='application/json')
@@ -50,7 +61,7 @@ class EmployeeCRUDCBV(RenderHttpResponse, SerializeMixin,View):
     def post(self, request, *args, **kwargs):
         data = request.body
         if not self.is_valid_json(data):
-            json_data = json.dumps({"msg" : "data must be in json only"})
+            json_data = json.dumps({"msg" : "data must b44e in json only"})
             return self.render_to_httpresponse(json_data, status=401)
 
         emp_data = json.loads(data)
@@ -103,7 +114,7 @@ class EmployeeCRUDCBV(RenderHttpResponse, SerializeMixin,View):
         data = request.body
         valid_json = self.is_valid_json(data)
         if not valid_json:
-            json_data = json.dumps({"msg": "data must be json only"})
+            json_data = json.dumps({"msg": "data musttt be json only"})
             return HttpResponse(json_data, content_type='application/json', status=400)
         pdata = json.loads(data)
         emp_id = pdata.get("id", None)

@@ -718,7 +718,7 @@ class Testing:
 
 
 t = Testing()
-# print(t.estimate_frequency_moh("Tone6.wav", "jj"))
+print(t.estimate_frequency_moh("Tone6.wav", "jj"))
 
 # from scipy.io import wavfile
 #
@@ -735,34 +735,42 @@ t = Testing()
 #
 # print(freq("MOH_200Hz_HF.wav", 1000 ,2100))
 # 1231.8181818181818
+# #
+# import sys
+# from aubio import source, pitch
 #
-import sys
-from aubio import source, pitch
-
-import numpy as np
-win_s = 4096
-hop_s = 512
-
-s = source("Tone6.wav", 8800, hop_s)
-samplerate = s.samplerate
-
-tolerance = 0.8
-
-pitch_o = pitch("yin", win_s, hop_s, samplerate)
-pitch_o.set_unit("midi")
-pitch_o.set_tolerance(tolerance)
-
-pitches = []
-confidences = []
-
-total_frames = 0
-while True:
-    samples, read = s()
-    pitch = pitch_o(samples)[0]
-    pitches += [pitch]
-    confidence = pitch_o.get_confidence()
-    confidences += [confidence]
-    total_frames += read
-    if read < hop_s: break
-
-print("Average frequency = " + str(np.array(pitches).mean()) + " hz")
+# import numpy as np
+# win_s = 4096
+# hop_s = 512
+#
+# s = source("Tone6.wav", 8800, hop_s)
+# samplerate = s.samplerate
+#
+# tolerance = 0.8
+#
+# pitch_o = pitch("yin", win_s, hop_s, samplerate)
+# pitch_o.set_unit("midi")
+# pitch_o.set_tolerance(tolerance)
+#
+# pitches = []
+# confidences = []
+#
+# total_frames = 0
+# while True:
+#     samples, read = s()
+#     pitch = pitch_o(samples)[0]
+#     pitches += [pitch]
+#     confidence = pitch_o.get_confidence()
+#     confidences += [confidence]
+#     total_frames += read
+#     if read < hop_s: break
+#
+# print("Average frequency = " + str(np.array(pitches).mean()) + " hz")
+#
+# import os
+# import requests
+# import sys
+#
+# def test_create_dir():
+#     if not os.path.exists("some"):
+#         os.mkdir("some")
