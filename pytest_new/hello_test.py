@@ -180,3 +180,11 @@ print(response)
 
 res1 = requests.get(url="https://reqres.in/api/users?page=2")
 print(res1.json())
+
+
+def function(x):
+    return x +1
+
+
+def test_function():
+    assert function(4) ==5

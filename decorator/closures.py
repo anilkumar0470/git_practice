@@ -112,7 +112,5 @@ for i in range(rows + 1, 0, -1):
                 print(j, end=' ')
     print(" ")
 
-st = "asdasd"
-st.ldsfds()
-st.lower()
+
 

@@ -3,7 +3,7 @@
 # # functionality and returns another function i.e without modifying the source code we can
 # # still enhance the code
 #
-# # why we want use decoratos
+# # why we want use decorators
 # # decorating our functions allows us to easily add functionality to our existing functions
 # # by adding that functionality inside the wrapper.
 #
@@ -23,16 +23,48 @@
 # # instead of writing like block 2 we will @decorator_name both will same functionality
 #
 #
-def decorator_fun(original_func):
-    def test_wrapper():
-        print("test wrapper is executing before {}".format(original_func.__name__))
-        return original_func()
-    return test_wrapper
-@decorator_fun
-def display_func():
-    print("display function")
+# def new_decorate_function(original_function):
+#     def wrapper_func():
+#         print("Wrapper will say hi first {}".format(original_function.__name__))
+#         original_function()
+#     return wrapper_func
+#
+# @new_decorate_function
+# def sample_hi():
+#     print(" I am saying hi second ")
+# sample_hi()
+# my_func = new_decorate_function(sample_hi)
+# my_func()
 
-display_func()
+def decorate_function(original_fun):
+    def wrapper_function(*args, **kwargs):
+        print("wrapper will be executed before {}".format(original_fun.__name__))
+        original_fun(*args, **kwargs)
+    return wrapper_function
+
+@decorate_function
+def new_display():
+    print("i am in display function")
+new_display()
+# result = decorate_function(new_display)
+# result()
+
+@decorate_function
+def display_info(name, loc):
+    print("name is {} and loc is {}".format(name, loc))
+
+display_info("anil", "bang")
+
+# def decorator_fun(original_func):
+#     def test_wrapper():
+#         print("test wrapper is executing before {}".format(original_func.__name__))
+#         return original_func()
+#     return test_wrapper
+# @decorator_fun
+# def display_func():
+#     print("display function")
+#
+# display_func()
 
 # def dec_func(org_fun):
 #     def wrapper_function():
@@ -396,3 +428,64 @@ display_func()
 # #
 # # my_cites("Bangalore", "hyderabad")
 #
+# decorator as class
+class decorator_class:
+
+    def __init__(self, original_function):
+        print("i am init")
+        self.original_function = original_function
+
+
+    def __call__(self, *args, **kwargs):
+        print("call method will be executed first")
+        return self.original_function(*args, **kwargs)
+@decorator_class
+def display_something():
+    print("i am something")
+
+display_something()
+
+# realtime example
+from functools import wraps
+def my_timer(org_func):
+    @wraps(org_func)
+    def wrapp_fun(*args, **kwargs):
+        import time
+        start_time = time.time()
+        org_func(*args, **kwargs)
+        time_taken =time.time() -start_time
+        print("time taken for {} to complet is {}".format(org_func.__name__,time_taken))
+    return wrapp_fun
+
+
+def my_logger(original_function):
+    import logging
+    logging.basicConfig(filename="{}.log".format(original_function.__name__), level=logging.INFO)
+    @wraps(original_function)
+    def wrapper_function(*args, **kwargs):
+        logging.info("{} Ran with with args : {} and kwargs {}".format(original_function.__name__,args, kwargs))
+        original_function(*args, **kwargs)
+    return wrapper_function
+@my_logger
+@my_timer
+
+def display_info_new(name, loc):
+    import time
+    time.sleep(1)
+    print("args are name {} loc {}".format(name, loc))
+display_info_new("anil", "chennai")
+
+
+
+
+def sample_decorator_new(original_func):
+    def wrapper_func():
+        result = original_func()
+        return result.title()
+    return wrapper_func
+
+@sample_decorator_new
+def display_first():
+    return "good morning"
+
+print(display_first())

@@ -133,9 +133,10 @@ print(res)
 def DecimalToBinary(num):
     if num > 1:
         DecimalToBinary(num // 2)
+    print("9999\n")
     print(num % 2, end='')
 
-dec_val = 24
+dec_val = 5
 # Calling function
 DecimalToBinary(dec_val)
 
