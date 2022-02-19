@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$USER_HOME$/Downloads/pbx_perf_regression" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Katanaframework" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ace_codebase" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../course-api-framework-python" vcs="Git" />

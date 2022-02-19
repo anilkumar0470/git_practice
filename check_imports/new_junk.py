@@ -93,3 +93,13 @@
 import parent.one
 import parent.two
 
+
+def sample_func():
+    string = "AAAA"
+    count = 0
+    for index in range(len(string)):
+        if index+1 < len(string):
+            if string[index] == string[index+1]:
+                count = count +1
+    return count
+# print(sample_func())

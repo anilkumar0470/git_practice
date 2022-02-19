@@ -1,11 +1,30 @@
 # list comprehenssion
+# syntax
+# new_list = [expression for item in iterable if condition==True]
 
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+    if "a" not in x:
+        newlist.append(x)
+print (newlist)
 
+# only if loop
+newlistlist = [item for item in fruits if "a" not in item]
+print(newlistlist)
 
+newlist = ["good" if "a" in fruit else "bye" for fruit in fruits]
+print(newlist)
 
-
+new_list = []
 list1 = [10,1,12,3,87,5,6,7,8,9,10]
+for element in list1:
+    new_list.append(element*2)
 
+print(new_list)
+
+out_list = [ele*2 for ele in list1]
+print (out_list)
 
 # for i in range(len(list1)):
 #     print(i, list1[i])
@@ -25,10 +44,10 @@ def sample():
     print("sdfdfd")
 
 s = sample()
-# print(s)
-# print(dir(s))
 print(s)
-print(s.__next__())
+print(dir(s))
+print(s)
+print(next(s))
 
 
 
@@ -39,8 +58,8 @@ print(s.__next__())
 #         new_list.append(list1[i] ** 2)
 # print(new_list)
 #
-# var1 = [list1[j]**2 for j in range(len(list1)) if j%2==0 if list1[j]%2==0]
-# print(var1)
+var1 = [list1[j]**2 for j in range(len(list1)) if j%2==0 if list1[j]%2==0]
+print(var1)
 
 
 
@@ -81,3 +100,14 @@ print(new_list3)
 l = [{"name":"name1", "age":"age1", "loc":"loc1"},{"name":"name1", "age":"age1", "loc":"loc1"}]
 for ele in l:
     print(ele["age"])
+
+
+res="Router Switch IGMP Two-port Mac Relay "
+import re
+device = re.search("(\w.*)(Two-port.*Relay)\s*([\w\s]+)*",res)
+print(device.group(1))
+print(device.group(2))
+if device.group(3):
+    print(device.group(3))
+
+    

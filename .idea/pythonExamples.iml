@@ -12,6 +12,6 @@
     <orderEntry type="module" module-name="ace_codebase" />
     <orderEntry type="module" module-name="test" />
     <orderEntry type="module" module-name="junk" />
-    <orderEntry type="module" module-name="pbx_perf_regression" />
+    <orderEntry type="module" module-name="data" />
   </component>
 </module>

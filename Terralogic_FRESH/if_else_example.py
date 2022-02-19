@@ -3,10 +3,12 @@
 # Condition / expresion is Boolean value or conditional data type or val
 # a = 0 # False
 
-a = 99999 # True
+#a = 99999 # True
 
-a = 10
-
+a = 0
+age = 18
+per = 80
+elif-- elseif
 if a:
     print(" a value is True")
 else :

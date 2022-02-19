@@ -4,3 +4,4 @@
 str1 = "Terralogic"
 for i in str1:
     pass
+

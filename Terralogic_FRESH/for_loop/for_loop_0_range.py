@@ -4,7 +4,7 @@
 # pass
 
 
-
+67
 str = "Hello good morning have a great day"
 
 
@@ -144,27 +144,31 @@ d = {
 #     for element in d[key]:
 #         if "name" in element:
 #             l.update({element["name"]: d[key]})
-# print(l)
+# # print(l)
+#
+# dd = {"info":[{
+#       "ifname": "lan15",
+#       "admin": True,
+#       "oper": False,
+#     },
+#     {
+#       "ifname": "wan14",
+#       "publicIp": "",
+#       "supported": ""
+#     },
+#     {
+#       "ifname": "lan2",
+#       "publicIp": "",
+#       "supported": ""
+#     }]}
+#
+# dict = {}
+# for index, value in enumerate(dd.keys()):
+#     for element in dd[value]:
+#         if "ifname" in element :
+#             dict.update({element["ifname"]: element})
+# print(dict)
 
-dd = {"info":[{
-      "ifname": "lan15",
-      "admin": True,
-      "oper": False,
-    },
-    {
-      "ifname": "wan14",
-      "publicIp": "",
-      "supported": ""
-    },
-    {
-      "ifname": "lan2",
-      "publicIp": "",
-      "supported": ""
-    }]}
 
-dict = {}
-for index, value in enumerate(dd.keys()):
-    for element in dd[value]:
-        if "ifname" in element :
-            dict.update({element["ifname"]: element})
-print(dict)
+for i in range(10,20):
+    print(i)

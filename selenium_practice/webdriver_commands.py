@@ -2,8 +2,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+# driver = webdriver.Firefox()
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\apathapa\Downloads\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"C:\Users\pathapaa\Videos\git_practice\selenium_practice\chromedriver_win\chromedriver.exe")
 
 driver.get("http://demo.automationtesting.in/Windows.html")  # to navigate to given URL
 

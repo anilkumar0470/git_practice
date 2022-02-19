@@ -2,7 +2,7 @@
 
 str1 = "Good Morning"
 for i in str1:
-    if i == 'G':
-        break
+    if i == 'n':
+        continue
     else:
         print (i)
