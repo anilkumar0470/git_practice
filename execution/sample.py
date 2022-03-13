@@ -80,3 +80,13 @@ for element in list1:
             list1.remove(element)
 
 print(list1)
+
+
+for num in range(2,20):
+    for i in range(2, num):
+        if num%i == 0:
+            break
+    else:
+        print(num)
+
+out = [num for num in range(2,20) if all(num%i !=0 for i in range(2,num))]

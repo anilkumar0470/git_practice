@@ -1,0 +1,11 @@
+INFO:root:Ran with with args : () and kwargs {}
+INFO:root:Ran with with args : ('anu', 'bang') and kwargs {}
+INFO:root:Ran with with args : ('anu', 'bang') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anu', 'bang') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anu', 'bang') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anu', 'bang') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anil', 'chennai') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anil', 'chennai') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anil', 'chennai') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anil', 'chennai') and kwargs {}
+INFO:root:display_info_new Ran with with args : ('anil', 'chennai') and kwargs {}

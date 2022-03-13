@@ -15,3 +15,13 @@ line = 'anilkumar pathapati'
 do_revers_line(line)
 """
 
+import threading
+import subprocess
+
+
+
+def do_something(eb):
+    subprocess.run("date", shell=True)
+
+t1 = threading.Thread(target=do_something,args=(10,))
+t1.start()
