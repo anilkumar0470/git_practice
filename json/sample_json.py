@@ -26,3 +26,11 @@ data = """{"employees":[
 # with open("new_states.json", "w") as f :
 #     json.dump(data, f, indent=4)
 
+with open("questions_papers.json") as qfd:
+    new_data = json.load(qfd)
+    for question in new_data["questions"]:
+        print(question)
+        for key, value in new_data["questions"][question].items():
+            print(key, value)
+
+

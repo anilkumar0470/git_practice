@@ -130,8 +130,8 @@ while a<n:
         a+=1
         b+=1
 """
-print "now we are in  functions "
-print "do practice well"
+# print "now we are in  functions "
+# print "do practice well"
 
 """
 def total(a,b):
@@ -142,20 +142,54 @@ b = input('enter b value:')
 p=total(a,b)
 print "total:",p
 """
-def sum(a,b):
-    c =a+b
-    print c
-sum(12,15)
-
-def details(name,age):
-    print "name:",name
-    print "age:",age
-details(age=30,name='pavan')
-def detail(name,age):
-    print "name",name
-    print "age",age
-detail('anil','23')
-
-
+# def sum(a,b):
+#     c =a+b
+#     print c
+# sum(12,15)
+#
+# def details(name,age):
+#     print "name:",name
+#     print "age:",age
+# details(age=30,name='pavan')
+# def detail(name,age):
+#     print "name",name
+#     print "age",age
+# detail('anil','23')
 
 
+
+
+
+
+
+
+
+# str1 = input("enter string1: ")
+# str2 = input("enter string2: ")
+str1 = "ABC"
+str2 = "BC"
+str1 = "BC"
+str2 = "BANGALORE"
+op1 = ""
+op2 = ""
+
+
+# def chec
+
+# op1 should contain all the characters which are present in str1 but NOT present in str2.
+for ele in str1:
+    if ele not in str2:
+        op1 = op1 + ele
+for char in str2:
+    if char not in str1:
+        op2 = op2 + char
+print(op1)
+print(op2)
+
+
+list1 = [["u1","u2"], ["u3","u4"], ["u1","u5"], ["u2","u1"], ["u3","u4"]]
+list2 = []
+for element in list1:
+    if [element[1], element[0]] not in list2 and element not in list2:
+        list2.append(element)
+print(list2)

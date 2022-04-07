@@ -27,45 +27,45 @@ s= Sample()
 # print(emp1.fullname())
 
 
-# class Employee:
-#
-#     raise_amount = 1.05
-#
-#     def __init__(self, first, last, pay):
-#         self.first = first
-#         self.last = last
-#         self.pay = pay
-#         self.email = first + "." + last + "@gmail.com"
-#
-#     def fullname(self):
-#         return "{} {}".format(self.first, self.last)
-#
-#     def apply_raise(self):
-#         self.pay = int(self.pay * self.raise_amount)
-#
-#     @classmethod
-#     def set_raise_amount(cls, amount):
-#         cls.raise_amount = amount
-#
-#     @staticmethod
-#     def is_workday(day):
-#         import datetime
-#         if day.weekday() == 5 or day.weekday == 6:
-#             return "it is holiday"
-#         return "it is working day@@!!"
-#
-#
-# emp1 = Employee("Anil", "pathapati",60000)
-# Employee.set_raise_amount(1.05)
-# # print(emp1.fullname())
-# # print(emp1.pay)
-# # emp1.apply_raise()
-# # print(emp1.pay)
-# print(Employee.raise_amount)
-# print(emp1.raise_amount)
-# import datetime
-# my_day =datetime.date(2019,2,9)
-# print(emp1.is_workday(my_day))
+class Employee:
+
+    raise_amount = 1.05
+
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.pay = pay
+        self.email = first + "." + last + "@gmail.com"
+
+    def fullname(self):
+        return "{} {}".format(self.first, self.last)
+
+    def apply_raise(self):
+        self.pay = int(self.pay * self.raise_amount)
+
+    @classmethod
+    def set_raise_amount(cls, amount):
+        cls.raise_amount = amount
+
+    @staticmethod
+    def is_workday(day):
+        import datetime
+        if day.weekday() == 5 or day.weekday == 6:
+            return "it is holiday"
+        return "it is working day@@!!"
+
+
+emp1 = Employee("Anil", "pathapati",60000)
+Employee.set_raise_amount(1.05)
+# print(emp1.fullname())
+# print(emp1.pay)
+# emp1.apply_raise()
+# print(emp1.pay)
+print(Employee.raise_amount)
+print(emp1.raise_amount)
+import datetime
+my_day =datetime.date(2019,2,9)
+print(emp1.is_workday(my_day))
 
 
 # class Employee():

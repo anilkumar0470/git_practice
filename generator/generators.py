@@ -35,3 +35,18 @@ while True:
         print(next(new_fun))
     except StopIteration:
         break
+
+
+def remove_dup(a):
+   i = 0
+   while i < len(a):
+      j = i + 1
+      while j < len(a):
+         if a[i] == a[j]:
+            del a[j]
+         else:
+            j += 1
+      i += 1
+s = [11,34,45,1,2,3,4,5,2,3,2,23,4,1,2,3,23,1,2]
+remove_dup(s)
+print(s)

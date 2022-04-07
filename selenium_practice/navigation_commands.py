@@ -7,9 +7,38 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
+from selenium.webdriver.common.by import By
 # creating driver object
 driver = webdriver.Chrome(executable_path=r"C:\Users\pathapaa\Downloads\chromedriver.exe")
+
+
+# navigating to URL
+driver.get("http://demo.automationtesting.in/Windows.html")
+import time
+time.sleep(5)
+
+# displaying the title
+print(driver.title)
+
+# displaying current ulr
+print(driver.current_url)
+
+# clicking element
+
+driver.find_element(By.XPATH, "//a/button[@class='btn btn-info']").click()
+
+# closing the window it will always closes the current or focused window
+
+driver.close()
+
+time.sleep(5)
+
+# if you want to close all windows use quit method
+driver.quit()
+
+
+
+
 
 # # to navigate to url
 # driver.get("https://www.youtube.com/")
@@ -31,8 +60,8 @@ driver = webdriver.Chrome(executable_path=r"C:\Users\pathapaa\Downloads\chromedr
 # print(driver.title)
 
 
-driver.get("https://accounts.lambdatest.com/register/")
-
-ele = driver.find_element_by_xpath("//input[@id='name']")
-ele.click()
-ele.send_keys("ddd")
+# driver.get("https://accounts.lambdatest.com/register/")
+#
+# ele = driver.find_element_by_xpath("//input[@id='name']")
+# ele.click()
+# ele.send_keys("ddd")

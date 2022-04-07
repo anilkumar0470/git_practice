@@ -70,3 +70,6 @@ class Child2(Child1):
         Child1.__init__(self)
 
 c = Child2()
+
+
+

@@ -17,6 +17,7 @@ def generating_random_number():
     print("executing from test file ")
     return random.randint(100, 200)
 
+
 class Test_fixtures_at_class_level_1:
 
     def test_scope_class_1(self, generating_random_number):
