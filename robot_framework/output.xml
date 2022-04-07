@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20220321 18:50:41.772" generator="Robot 3.0.4 (Python 2.7.16 on win32)">
+<suite source="C:\Users\pathapaa\Videos\git_practice\robot_framework\sample.robot" id="s1" name="Sample">
+<test id="s1-t1" name="Example Test">
+<kw name="Sample Keyword" library="sample">
+<msg timestamp="20220321 18:50:41.812" level="INFO">sdsdsdsd</msg>
+<status status="PASS" endtime="20220321 18:50:41.812" starttime="20220321 18:50:41.812"></status>
+</kw>
+<status status="PASS" endtime="20220321 18:50:41.812" critical="yes" starttime="20220321 18:50:41.810"></status>
+</test>
+<doc>this is for utilizing the robot framework</doc>
+<status status="PASS" endtime="20220321 18:50:41.816" starttime="20220321 18:50:41.776"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Sample" pass="1">Sample</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

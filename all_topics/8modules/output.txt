@@ -1,0 +1,14 @@
+ Volume in drive C is Windows
+ Volume Serial Number is BA12-CCAF
+
+ Directory of C:\Users\pathapaa\Videos\git_practice\all_topics\8modules
+
+03/19/2022  10:42 AM    <DIR>          .
+03/19/2022  10:42 AM    <DIR>          ..
+03/17/2022  10:01 PM    <DIR>          json_module
+03/17/2022  09:50 PM                71 os_module.py
+03/19/2022  10:42 AM                 0 output.txt
+02/27/2022  04:49 PM               172 readme.txt
+03/19/2022  10:42 AM             1,435 subprocess_module.py
+               4 File(s)          1,678 bytes
+               3 Dir(s)  340,404,649,984 bytes free
