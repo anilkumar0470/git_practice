@@ -70,6 +70,10 @@ def cmdopt(request):
 #
 #     request.addfinalizer(some_resource_fin)
 
+def pytest_logger_config(logger_config):
+    logger_config.add_loggers(["ui_test"], stdout_level="debug")
+    logger_config.set_log_option_default('ui_test')
+
 @pytest.fixture(scope="session")
 def generating_random_number_in_module_level():
     print("executing from conftest  file ")
@@ -98,9 +102,9 @@ def scope_of_fixture_at_class_level():
     return random.randint(0,10)
 
 from datetime import datetime
-import logging
-
-log = logging.getLogger(__name__)
+# import logging
+#
+# log = logging.getLogger(__name__)
 
 # def pytest_assertrepr_compare(op, left, right):
 #     """ This function will print log everytime the assert fails"""

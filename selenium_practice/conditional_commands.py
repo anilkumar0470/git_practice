@@ -4,12 +4,12 @@
 # is_enabled() to check those elements are enabled or not
 # is_selected() check boxes are checked or un checked or for radio button also we will use the same
 # import basic stuff
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-
-# creating driver object
-driver = webdriver.Chrome(executable_path=r"C:\Users\pathapaa\Downloads\chromedriver.exe")
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.common.by import By
+#
+# # creating driver object
+# driver = webdriver.Chrome(executable_path=r"C:\Users\pathapaa\Downloads\chromedriver.exe")
 
 # when u open any open any open page if u want to check some field is displaying or not and also the username
 # field is enable or not.
@@ -36,13 +36,13 @@ driver = webdriver.Chrome(executable_path=r"C:\Users\pathapaa\Downloads\chromedr
 #
 # assert "Facebook" in driver.title
 
-driver.get("https://www.makemytrip.com/")
-
+# driver.get("https://www.makemytrip.com/")
 #
-one_way_element = driver.find_element(By.XPATH, "//li[@data-cy='roundTrip']")
-
-# is_selected() is used to check given element is selected or not
-print(one_way_element.is_selected())
+# #
+# one_way_element = driver.find_element(By.XPATH, "//li[@data-cy='roundTrip']")
+#
+# # is_selected() is used to check given element is selected or not
+# print(one_way_element.is_selected())
 
 
 

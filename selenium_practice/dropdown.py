@@ -17,7 +17,7 @@ driver.get("https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407")
 drp_btn = driver.find_element(By.ID, "RESULT_RadioButton-9")
 drp = Select(drp_btn)
 # select by visible text
-# drp.select_by_visible_text("Morning")
+drp.select_by_visible_text("Morning")
 # select by index number index start from 0
 # drp.select_by_index(2)
 # select by value attribute in html
