@@ -300,10 +300,7 @@ print(response.text)
 # url = "https://api.upstox.com/live/profile/balance"
 #
 # payload={}
-# headers = {
-#   'Authorization': 'Bearer B-bfb8652e5a8e4103949e0bd75571cfa2e49eefc5',
-#   'x-api-key': 'kVaqLtiSNPgVfSrXhUKJa2A5HRizcDf3rxf1KCh3',
-# }
+
 #
 # response = requests.request("GET", url, headers=headers, data=payload)
 #
