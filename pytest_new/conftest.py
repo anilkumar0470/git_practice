@@ -101,6 +101,22 @@ def scope_of_fixture_at_class_level():
     import random
     return random.randint(0,10)
 
+
+@pytest.fixture(scope="class", autouse=True)
+def onetimesetupnew(request):
+    import pdb
+    # pdb.set_trace()
+    print("4444")
+    yield
+    import pdb
+    # pdb.set_trace()
+    print("45555")
+
+@pytest.fixture(scope="class", autouse=True)
+def teardown(request):
+    print("00990900")
+
+
 from datetime import datetime
 # import logging
 #

@@ -1,3 +1,5 @@
+# implicitly wait applicable for all elements in the given script, which means what ever the specified time
+# will be applicable all the elements i.e for each element it will wait for given time in the script
 # agenda is wait commands in selenium
 # when you are trying to click on some element which not loaded yet , that time it will lead to
 # no such element or element not visible and script will continue further which is called
@@ -10,22 +12,35 @@
 # 1)implicit wait
 # 2)explicit wait
 # import basic statements
+# from selenium import webdriver
+#
+# driver = webdriver.Chrome(executable_path=r"C:\Users\apathapa\Downloads\chromedriver.exe")
+#
+# # launching the URL
+#
+# driver.get("https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F")
+# # lets say opening this page is taking some time
+# # so we want to wait for some time we will use implicit wait command
+# # implicit wait is applicable for all the elements of the script
+# driver.implicitly_wait(5)
+#
+# # assert driver.title == "YouTube", "youtube is not loaded"
+#
+# driver.find_element_by_name("email").send_keys("anilkumar.0466@gmail.com")
+#
+# driver.find_element_by_name("password").send_keys("8374851518@As")
+#
+# driver.find_element_by_name("submit").click()
+
+
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome(executable_path=r"C:\Users\apathapa\Downloads\chromedriver.exe")
 
-# launching the URL
+driver = webdriver.Chrome(executable_path="/usr/local/bin/chromedriver")
+driver.get("https://demo.guru99.com/test/newtours/")
 
-driver.get("https://www.udemy.com/join/login-popup/?locale=en_US&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F")
-# lets say opening this page is taking some time
-# so we want to wait for some time we will use implicit wait command
-# implicit wait is applicable for all the elements of the script 
-driver.implicitly_wait(5)
-
-# assert driver.title == "YouTube", "youtube is not loaded"
-
-driver.find_element_by_name("email").send_keys("anilkumar.0466@gmail.com")
-
-driver.find_element_by_name("password").send_keys("8374851518@As")
-
-driver.find_element_by_name("submit").click()
+driver.implicitly_wait(10)
+assert "Welcome" in driver.title
+driver.quit()

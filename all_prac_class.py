@@ -193,3 +193,48 @@ for element in list1:
     if [element[1], element[0]] not in list2 and element not in list2:
         list2.append(element)
 print(list2)
+import os
+import itertools as it
+def substrCount(n, s):
+    if n == 1:
+        return 1
+    s = [list(g) for k, g in it.groupby(s)]
+    res = sum([int(len(i)*(len(i)+1)/2) for i in s])
+
+    for i in range(len(s)):
+        if i == 0 or i == len(s)-1 or len(s[i]) > 1 :
+            continue
+        if s[i-1][0] == s[i+1][0]:
+            res+= min(len(s[i-1]), len(s[i+1]))
+    return res
+print(substrCount(7, "abcbaba"))
+
+#abcbaba
+#a a
+
+# Input: strs = ["eat","tea","tan","ate","nat","bat"]
+# Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+strs = ["eat","tea","tan","ate","nat","bat"]
+res = []
+res1 = []
+for i in range(len(strs)):
+    if strs[i] in res1:
+        continue
+    temp = []
+    for j in range(i, len(strs)):
+        print("j is {}".format(j))
+        print("values are {}:{}".format(strs[i], strs[j]))
+        if sorted(strs[i]) == sorted(strs[j]):
+            if strs[i] not in temp:
+                temp.append(strs[i])
+            if strs[j] not in temp:
+                temp.append(strs[j])
+    else:
+        import pdb
+        # pdb.set_trace()
+        if not temp:
+            temp.append(strs[i])
+    res.append(temp)
+    # res1.extend(temp)
+res.sort()
+print(res)

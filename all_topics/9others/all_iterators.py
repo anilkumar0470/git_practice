@@ -129,3 +129,27 @@ class OldRange:
 old_iter = OldRange(23, 45)
 for iterm in old_iter:
     print(iterm)
+
+
+class TestRangeNew:
+
+    def __init__(self, start, end):
+        self.current = start
+        self.end = end
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.current >= self.end:
+            raise StopIteration
+        current = self.current
+        self.current += 1
+        return current
+
+t = TestRangeNew(11,35)
+for j in t:
+    print(j)
+import requests
+
+requests.get(url="", )

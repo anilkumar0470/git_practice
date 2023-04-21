@@ -64,3 +64,72 @@
 # # css selector = tag[individual_attribute=value] Eg : "input[value=oneway]"
 # # no need to mention quotations in inside the css selector
 
+
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.common.by import By
+# import time
+# driver = webdriver.Chrome(executable_path="/usr/local/bin/chromedriver")
+# driver.get("https://demo.guru99.com/test/newtours/")
+#
+# username_element = driver.find_element(By.NAME, "userName")
+#
+# print(username_element.is_displayed()) # true/False
+# print(username_element.is_enabled()) # true/False
+# username_element.send_keys("mercury")
+#
+# password_element = driver.find_element(By.NAME, "password")
+#
+# print(password_element.is_displayed())
+# print(password_element.is_enabled())
+# password_element.send_keys("mercury")
+#
+# driver.find_element(By.NAME, "submit").click()
+# time.sleep(2)
+# driver.find_element(By.XPATH, "//a[contains(text(), 'Flight')]").click()
+# time.sleep(6)
+# radio_btn_ele = driver.find_element(By.XPATH, "//input[@value='roundtrip']")
+# print(radio_btn_ele.is_selected())
+# driver.quit()
+
+
+from selenium import webdriver
+
+
+driver = webdriver.Chrome(executable_path="")
+
+driver.get("https://login.upstox.com")
+
+
+driver.find_element_by_id("mobilenumber")
+
+
+driver.find_element_by_id("mobilenum")
+driver.find_element_by_id("mobilenum")
+driver.find_element_by_id("mobilenum")
+driver.find_element_by_id("mobilenum")
+driver.find_element_by_id("mobilenum")
+# click
+
+
+driver.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

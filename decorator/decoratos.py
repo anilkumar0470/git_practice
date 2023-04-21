@@ -459,6 +459,7 @@ def my_timer(org_func):
 
 
 def my_logger(original_function):
+    print("something")
     import logging
     logging.basicConfig(filename="{}.log".format(original_function.__name__), level=logging.INFO)
     @wraps(original_function)

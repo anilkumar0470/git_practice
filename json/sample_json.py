@@ -1,4 +1,5 @@
 import json
+import os.path
 
 data = """{"employees":[  
     {"name":"Shyam", "email":"shyamjaiswal@gmail.com", "loc":"Bang"},  
@@ -26,11 +27,32 @@ data = """{"employees":[
 # with open("new_states.json", "w") as f :
 #     json.dump(data, f, indent=4)
 
-with open("questions_papers.json") as qfd:
-    new_data = json.load(qfd)
-    for question in new_data["questions"]:
-        print(question)
-        for key, value in new_data["questions"][question].items():
-            print(key, value)
+# with open("questions_papers.json") as qfd:
+#     new_data = json.load(qfd)
+#     for question in new_data["questions"]:
+#         print(question)
+#         for key, value in new_data["questions"][question].items():
+#             print(key, value)
+
+import json
+# function to add to JSON
 
 
+def write_json(new_data, filename='new_states.json'):
+
+    if not os.path.exists(os.path.join(os.getcwd(), "new_states.json")):
+        with open(os.path.join(os.getcwd(), "new_states.json"), 'w') as f:
+            data = {"tests": []}
+            json.dump(data, f, indent=2)
+
+    with open(filename, 'r+') as file:
+
+        file_data = json.load(file)
+        file_data["tests"].append(new_data)
+        file.seek(0)
+        json.dump(file_data, file, indent=4)
+
+
+y = {"name": "india12"}
+
+write_json(y)

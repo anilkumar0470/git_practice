@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite errors="0" failures="0" hostname="ANILKUMARMAC.local" name="pytest" skipped="0" tests="2" time="5.684" timestamp="2023-01-19T15:08:49.798836">
+        <testcase classname="test_xray_things.TestXrayStuff2" file="test_xray_things.py" line="6" name="test_sample_1116" time="0.004">
+
+        </testcase>
+        <testcase classname="test_xrray_things.TestXrayStuff1" file="test_xrray_things.py" line="7" name="test_sample_1115" time="0.001">
+
+        </testcase>
+    </testsuite>
+</testsuites>

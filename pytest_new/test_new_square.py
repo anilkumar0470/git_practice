@@ -19,7 +19,7 @@ import time
 import logging
 
 import pdb
-pdb.set_trace()
+# pdb.set_trace()
 log = logging.getLogger("ui_test")
 
 class Test_Sample():
