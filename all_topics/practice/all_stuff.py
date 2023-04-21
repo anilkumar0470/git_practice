@@ -328,16 +328,16 @@
 # print(type(int(target))  == int)
 # print(target.isdigit())
 
-def validate(target):
-
-    if target.startswith("0") or target.startswith("."):
-        return False
-    else:
-        return True
-
-print(validate("33.1234"))
-strs = ["eat","tea","tan","ate","nat","bat"]
-Output = [["bat"],["nat","tan"],["ate","eat","tea"]]
+# def validate(target):
+#
+#     if target.startswith("0") or target.startswith("."):
+#         return False
+#     else:
+#         return True
+#
+# print(validate("33.1234"))
+# strs = ["eat","tea","tan","ate","nat","bat"]
+# Output = [["bat"],["nat","tan"],["ate","eat","tea"]]
 
 # out = []
 # for element in strs:
@@ -361,23 +361,182 @@ Output = [["bat"],["nat","tan"],["ate","eat","tea"]]
 #     res[tuple(count)].append(s)
 # print(res.values())
 
-l1 = [1,1,1,2,2,3]
-k = 2
-out = {}
-for element in l1:
-    out.update({element: l1.count(element)})
-print(out)
-print(sorted(out.values()))
-for key, value in out.items():
-    if value <= k:
-        print(key, value)
+# l1 = [1,1,1,2,2,3]
+# k = 2
+# out = {}
+# for element in l1:
+#     out.update({element: l1.count(element)})
+# print(out)
+# print(sorted(out.values()))
+# for key, value in out.items():
+#     if value <= k:
+#         print(key, value)
+#
+#
+#
+#
+# print("h")
+
+
+# phone = "5:59"
+# watch = "06 00"
+# w1 = watch.split()
+# p1 = phone.split(":")
+# if int(w1[0]) == int(p1[0]):
+#     print("hour is matching")
+# if not int(w1[-1]) == int(p1[-1]):
+#     print("time is not matching")
+#     if int(w1[-1]) == int(p1[-1])+1:
+#         print("time is ")
+#     elif int(p1[-1]) == 59 and int(w1[-1]) == 00:
+#         print("333")
+# else:
+#     print("time is matching")
 
 
 
+class Sample:
 
-print("h")
+    def __init__(self):
+        phone = "12:59"
+        watch = "1 00"
+        # 12:59 1 00
+        w1 = watch.split()
+        p1 = phone.split(":")
+        self.wtimehour = int(w1[0])
+        self.wtimemin = int(w1[-1])
+        self.ptimehour = int(p1[0])
+        self.ptimemin = int(p1[-1])
+
+    def time_validation(self):
+        if self.ptimehour != self.wtimehour:
+            if self.ptimemin == 59 and self.wtimemin == 0:
+                if self.ptimehour == 12:
+                    if self.wtimehour != 1:
+                        return False
+                else:
+                    if self.ptimehour != self.wtimehour-1:
+                        return False
+            else:
+                return False
+        else:
+            if self.wtimemin != self.ptimemin and self.wtimemin != self.ptimemin + 1:
+                return False
+        return True
+
+    def hour_validation(self):
+        if self.ptimehour != self.wtimehour:
+            if int(self.ptimehour) != 12:
+                if int(self.wtimehour) != 1:
+                    return False
+                else:
+                    return True
+            if self.ptimemin == 59:
+                if self.wtimemin == 0:
+                    if self.wtimehour != self.ptimehour + 1:
+                        return False
+                    else:
+                        return True
+        return True
+
+    def mintues_validation(self):
+
+        if int(self.wtimemin) != int(self.ptimemin) and int(self.wtimemin) != int(self.ptimemin) + 1:
+            if int(self.ptimemin) == 59:
+                if int(self.wtimemin) !=0 and (self.wtimemin < self.ptimemin or self.wtimemin > self.ptimemin):
+                    return False
+                else:
+                    return True
+            else:
+                return False
+        else:
+            return True
+
+
+s = Sample()
+# out = s.mintues_validation()
+# if out:
+#     print(s.hour_validation())
+# else:
+#     print(False)
+print(s.time_validation())
 
 
 
+class D:
+    def m11(self):
+        print("i am in D class")
+class E:
+    def m11(self):
+        print("i am in E class")
+class F:
+    def m11(self):
+        print("i am in F class")
+
+class B(D,E):
+    def m11(self):
+        print("i am in B class")
+
+class C(D,F):
+    def m11(self):
+        print("i am in C class")
+class A(B,C):
+    def m11(self):
+        print("i am in A class")
+
+# a = A()
+# a.m1()
 
 
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("name is {}".format(self.name))
+        print("age is {}".format(self.age))
+
+
+class Student(Person):
+    def __init__(self, name, age, rollno, marks):
+        super().__init__(name, age)
+        self.rollno = rollno
+        self.marks = marks
+
+    def display(self):
+        super().display()
+        print("roll no is {}".format(self.rollno))
+        print("marks are {}".format(self.marks))
+
+
+class Teacher(Person):
+    def __init__(self, name, age, salary, subject):
+        super().__init__(name, age)
+        self.salary = salary
+        self.subject = subject
+
+    def display(self):
+        super().display()
+        print("salary is {}".format(self.salary))
+        print("subject is {}".format(self.subject))
+
+
+# s1 = Student("anil", 29, 1046, 543)
+# s1.display()
+# t1 = Student("kumar", 35, 10000, "python")
+# t1.display()
+
+
+s1 = "aawweerrffttgg" # 3
+
+def verify_unique_character(input_str):
+    index = 1
+    for element in input_str:
+        if input_str.count(element) == 1:
+            return index
+        else:
+            index += 1
+    return -1
+
+print(verify_unique_character(s1))

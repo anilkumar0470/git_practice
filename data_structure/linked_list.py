@@ -211,9 +211,120 @@
 #
 #
 
+#
+# # linked list implementation
+# # a  node consist of data and reference to next data
+# class Node:
+#     def __init__(self, data):
+#         self.data = data
+#         self.next = None
+#
+#
+# class SingleLinkedList:
+#     def __init__(self):
+#         self.head = None
+#
+#     def traversal_the_linked_list(self):
+#
+#         if self.head == None:
+#             print("linked list is empty")
+#         else:
+#             a = self.head
+#             while a is not None:
+#                 print(a.data, end=" ")
+#                 a = a.next
+#
+#     def insertion_at_beginning(self, data):
+#         nb = Node(data)
+#         nb.next = self.head
+#         self.head = nb
+#
+#     def insertion_at_end(self, data):
+#         ne = Node(data)
+#         a = self.head
+#         while a.next is not None:
+#             a = a.next
+#         a.next = ne
+#
+#     def insertion_at_specified_end(self, position, data):
+#         ise = Node(data)
+#         a = self.head
+#         for i in range(1, position-1):
+#             a = a.next
+#         ise.next = a.next
+#         a.next = ise
+#
+#     def delete_at_beginning(self):
+#         a = self.head
+#         self.head = a.next
+#         a.next = None
+#
+#     def delete_at_the_end(self):
+#         prev = self.head
+#         a  = self.head.next
+#
+#         # while
+#
+#
+#
+# n1 = Node(10)
+# sll = SingleLinkedList()
+# sll.head = n1
+# n2 = Node(20)
+# n1.next = n2
+# n3 = Node(30)
+# n2.next = n3
+# n4 = Node(40)
+# n3.next = n4
+# sll.traversal_the_linked_list()
+# sll.insertion_at_beginning(5)
+# print()
+# sll.traversal_the_linked_list()
+# sll.insertion_at_end(60)
+# print()
+# sll.traversal_the_linked_list()
+# sll.insertion_at_specified_end(3, 33)
+# print()
+# sll.traversal_the_linked_list()
+# sll.delete_at_beginning()
+# print()
+# sll.traversal_the_linked_list()
 
-# linked list implementation
-# a  node consist of data and reference to next data
+# data and address of next element
+#
+# class Node:
+#     def __init__(self, data):
+#         self.data = data
+#         self.next = None
+#
+#
+# class SingleLL:
+#     def __init__(self):
+#         self.head = None
+#
+#     def traversal(self):
+#         a = self.head
+#         while a is not None:
+#             print(a.data, end=" ")
+#             a = a.next
+#
+#
+# n1 = Node(5)
+# n2 = Node(10)
+# n3 = Node(15)
+# n4 = Node(20)
+# sll = SingleLL()
+# sll.head = n1
+# n1.next = n2
+# n2.next = n3
+# n3.next = n4
+# sll.traversal()
+# nb = Node(2)
+
+# insertion at beginning
+
+# data, next, head
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -224,74 +335,87 @@ class SingleLinkedList:
     def __init__(self):
         self.head = None
 
-    def traversal_the_linked_list(self):
-
-        if self.head == None:
-            print("linked list is empty")
+    def traversal(self):
+        if self.head is None:
+            return "linked list is empty"
         else:
             a = self.head
             while a is not None:
                 print(a.data, end=" ")
                 a = a.next
 
-    def insertion_at_beginning(self, data):
-        nb = Node(data)
+    def insert_at_beginning(self, value):
+        nb = Node(value)
         nb.next = self.head
         self.head = nb
 
-    def insertion_at_end(self, data):
-        ne = Node(data)
+    def insert_at_end(self, value):
+        ne = Node(value)
         a = self.head
         while a.next is not None:
             a = a.next
         a.next = ne
 
-    def insertion_at_specified_end(self, position, data):
-        ise = Node(data)
+    def insert_at_specified_node(self, position, value):
+        nm = Node(value)
         a = self.head
-        for i in range(1, position-1):
+        for i in range(1, position):
             a = a.next
-        ise.next = a.next
-        a.next = ise
+        nm.next = a.next
+        a.next = nm
 
     def delete_at_beginning(self):
         a = self.head
         self.head = a.next
         a.next = None
 
-    def delete_at_the_end(self):
+    def delete_at_end(self):
         prev = self.head
-        a  = self.head.next
+        a = self.head.next
+        while a.next is not None:
+            a = a.next
+            prev = prev.next
+        prev.next =None
 
-        # while
+    def delete_at_specified_position(self, position):
+        prev = self.head
+        a = self.head.next
+        for i in range(1, position):
+            a = a.next
+            prev = prev.next
+        prev.next = a.next
+        a.next = None
 
 
-
-n1 = Node(10)
 sll = SingleLinkedList()
+n1 = Node(5)
+n2 = Node(10)
+n3 = Node(15)
+n4 = Node(20)
 sll.head = n1
-n2 = Node(20)
 n1.next = n2
-n3 = Node(30)
 n2.next = n3
-n4 = Node(40)
 n3.next = n4
-sll.traversal_the_linked_list()
-sll.insertion_at_beginning(5)
-print()
-sll.traversal_the_linked_list()
-sll.insertion_at_end(60)
-print()
-sll.traversal_the_linked_list()
-sll.insertion_at_specified_end(3, 33)
-print()
-sll.traversal_the_linked_list()
+sll.traversal()
+sll.insert_at_beginning(1)
+print("insert at beginning ")
+sll.traversal()
+
+sll.insert_at_end(30)
+print("insert at end")
+sll.traversal()
+sll.insert_at_specified_node(3, 25)
+print("insert at specified node")
+sll.traversal()
 sll.delete_at_beginning()
-print()
-sll.traversal_the_linked_list()
-
-
-
+print("delete at beginning")
+sll.traversal()
+sll.delete_at_end()
+print("delete at the end")
+sll.traversal()
+sll.delete_at_specified_position(3)
+print("delete at specified node")
+sll.traversal()
 
 
 

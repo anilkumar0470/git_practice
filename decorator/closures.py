@@ -12,7 +12,7 @@
 # # we are able to access the  message variable in the inner_function.Those variables are
 # # called as free variables.
 #
-# # A closure is inner function that remembers and has accesss to variables in the local
+# # A closure is inner function that remembers and has access to variables in the local
 # # scope in which it was created even though outer function is executed
 #
 # def outer_function():

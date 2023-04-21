@@ -8,7 +8,6 @@
 a = 0
 age = 18
 per = 80
-elif-- elseif
 if a:
     print(" a value is True")
 else :

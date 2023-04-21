@@ -158,3 +158,17 @@ print(new_stack.remove_element_from_stack())
 print(new_stack.display_all_elements_in_stack())
 print(new_stack.display_size_of_stack())
 print(new_stack.is_empty())
+
+
+l1 = [10, 7, 4, 2, 9, 10, 11, 3, 2]
+out = [11, 9,9,9,10,11,-1,-1,-1]
+result = []
+for i in range(len(l1)) :
+    for j in range(i+1, len(l1)):
+        if l1[i] < l1[j]:
+            result.append(l1[j])
+            break
+    else:
+        result.append(-1)
+print(result)
+

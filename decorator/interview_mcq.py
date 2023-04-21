@@ -23,8 +23,8 @@ class Car(Vehicle):
 class RacingCar(Car):
     def __init__(self):
         super(RacingCar,self).__init__()
-# mycar = RacingCar("Ferrari Enzo")
-# print(mycar.engine)
+mycar = RacingCar("Ferrari Enzo")
+print(mycar.engine)
 
 
 class Vehicle(object):

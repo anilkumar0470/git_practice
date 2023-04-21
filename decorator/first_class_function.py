@@ -1,5 +1,5 @@
 # first class functions
-# it treat functions as first class citizenship
+# it will treat functions as first class citizenship
 # is an entity which supports all the general operations available for other entities.
 # passed as argument
 # return as argument
@@ -18,20 +18,23 @@ f(10)
 # a function expects function as argument or return as argument then it is called as
 # higher order function
 
+
 def check_given_number_is_even(num):
-    if num%2 == 0 :
+    if num%2 == 0:
         return num
     else:
         return None
+
 
 def my_map(func, args):
     even_list = []
     for i in args:
         return_value = func(i)
         if return_value:
-            if i not  in even_list:
+            if i not in even_list:
                 even_list.append(i)
     print(even_list)
+
 
 my_map(check_given_number_is_even, [2,4,6,5,7])
 
@@ -94,7 +97,7 @@ def outer_func(msg):
     return inner_func
 hi_return =  outer_func("hi")
 hi_return()
-hello_return =  outer_func("hell0")
+hello_return = outer_func("hell0")
 hello_return()
 
 

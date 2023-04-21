@@ -11,10 +11,7 @@ def valid(s):
         else:
             new_list.append(i)
 
-    if new_list:
-        return False
-    else:
-        return True
+    return False if new_list else True
 
 # print(valid(valid_input1))
 
@@ -98,3 +95,76 @@ class Solution(object):
                return True
        else:
            return False
+
+
+strs = ["eat","tea","tan","ate","nat","bat"]
+output: [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
+
+
+def group_of_anagrams(strs):
+    res = {}
+    for element in strs:
+        count = [0] * 26
+        for c in element:
+            count[ord(c)-ord("a")] = count[ord(c)-ord("a")] + 1
+        if tuple(count) not in res:
+            res.update({tuple(count): []})
+        res[tuple(count)].append(element)
+    return list(res.values())
+
+
+# print(group_of_anagrams(strs))
+
+def check_k_frequent_element():
+    list12 = [1,1,1,2,2,2,4,4,4,4,3]
+    freq = [[] for i in range(len(list12))]
+    print("freq is",freq)
+    count = {}
+    for i in list12:
+        count[i] = 1 + count.get(i, 0)
+    print("count is ", count)
+    for n, c in count.items():
+        freq[c].append(n)
+    print("freq after update",freq)
+    res = []
+
+    for i in range(len(freq)-1, 0, -1):
+        for n in freq[i]:
+            res.append(n)
+            if len(res) == 2:
+                return res
+
+
+print(check_k_frequent_element())
+
+list1 = [100, 4, 200, 3, 2, 1]
+
+
+def longest_consecutive_sequence(list1):
+    nums = set(list1)
+    longest = 0
+    for n in nums:
+        if n-1 not in nums:
+            length = 0
+            while (n+length) in nums:
+                length += 1
+            longest = longest if longest > length else length
+    return longest
+
+# print("www", longest_consecutive_sequence(list1))
+
+
+nums = [1, 2, 3, 4]
+res = 1
+out = []
+for i in range(len(nums)):
+    res = 1
+    for j in range(len(nums)):
+        if i != j:
+            res = res * nums[j]
+    out.append(res)
+
+print(out)
+
+
+

@@ -240,3 +240,42 @@ for character in str3:
     if character not in out_dict and not character.isspace():
         out_dict.update({character: str3.count(character)})
 print(out_dict)
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Edge(executable_path="/Users/anilkumar/Documents/msedgedriver")
+driver.maximize_window()
+driver.get("https://www.google.com")
+import time
+time.sleep(2)
+driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input").send_keys("facebook")
+
+time.sleep(3)
+driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[5]/center/input[1]").click()
+time.sleep(2)
+driver.back()
+time.sleep(2)
+driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input").send_keys("cricbuzz")
+driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[5]/center/input[1]").click()
+driver.back()
+time.sleep(2)
+# import time
+# time.sleep(2)
+# ele1 = driver.find_element(By.XPATH, "//*[@aria-label='Google apps' and  @class='gb_e']")
+# ele1.click()
+# time.sleep(2)
+# import pdb
+# # pdb.set_trace()
+# # wait = WebDriverWait(driver, 10)
+#
+# driver.switch_to.frame("app")
+#
+# ctnbtn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'YouTube') and contains(@data-text,'YouTube')]")))
+# ctnbtn.click()
+#
+# # ele2 = wait.until(EC.presence_of_element_located(((By.XPATH, "//*[contains(text(), 'YouTube') and contains(@data-text,'YouTube')]"))))
+# # ele2 = driver.find_element(By.XPATH, "//*[contains(text(), 'YouTube') and contains(@data-text,'YouTube')]")
+# # ele2.click()

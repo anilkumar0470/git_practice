@@ -36,24 +36,24 @@
 # my_func = new_decorate_function(sample_hi)
 # my_func()
 
-def decorate_function(original_fun):
-    def wrapper_function(*args, **kwargs):
-        print("wrapper will be executed before {}".format(original_fun.__name__))
-        original_fun(*args, **kwargs)
-    return wrapper_function
-
-@decorate_function
-def new_display():
-    print("i am in display function")
-new_display()
-# result = decorate_function(new_display)
-# result()
-
-@decorate_function
-def display_info(name, loc):
-    print("name is {} and loc is {}".format(name, loc))
-
-display_info("anil", "bang")
+# def decorate_function(original_fun):
+#     def wrapper_function(*args, **kwargs):
+#         print("wrapper will be executed before {}".format(original_fun.__name__))
+#         original_fun(*args, **kwargs)
+#     return wrapper_function
+#
+# @decorate_function
+# def new_display():
+#     print("i am in display function")
+# new_display()
+# # result = decorate_function(new_display)
+# # result()
+#
+# @decorate_function
+# def display_info(name, loc):
+#     print("name is {} and loc is {}".format(name, loc))
+#
+# display_info("anil", "bang")
 
 # def decorator_fun(original_func):
 #     def test_wrapper():
@@ -429,64 +429,315 @@ display_info("anil", "bang")
 # # my_cites("Bangalore", "hyderabad")
 #
 # decorator as class
-class decorator_class:
+# class decorator_class:
+#
+#     def __init__(self, original_function):
+#         print("i am init")
+#         self.original_function = original_function
+#
+#
+#     def __call__(self, *args, **kwargs):
+#         print("call method will be executed first")
+#         return self.original_function(*args, **kwargs)
+# @decorator_class
+# def display_something():
+#     print("i am something")
+#
+# display_something()
+#
+# # realtime example
+# from functools import wraps
+# def my_timer(org_func):
+#     @wraps(org_func)
+#     def wrapp_fun(*args, **kwargs):
+#         import time
+#         start_time = time.time()
+#         org_func(*args, **kwargs)
+#         time_taken =time.time() -start_time
+#         print("time taken for {} to complet is {}".format(org_func.__name__,time_taken))
+#     return wrapp_fun
+#
+#
+# def my_logger(original_function):
+#     print("something")
+#     import logging
+#     logging.basicConfig(filename="{}.log".format(original_function.__name__), level=logging.INFO)
+#     @wraps(original_function)
+#     def wrapper_function(*args, **kwargs):
+#         logging.info("{} Ran with with args : {} and kwargs {}".format(original_function.__name__,args, kwargs))
+#         original_function(*args, **kwargs)
+#     return wrapper_function
+# @my_logger
+# @my_timer
+#
+# def display_info_new(name, loc):
+#     import time
+#     time.sleep(1)
+#     print("args are name {} loc {}".format(name, loc))
+# display_info_new("anil", "chennai")
+#
+#
+#
+#
+# def sample_decorator_new(original_func):
+#     def wrapper_func():
+#         result = original_func()
+#         return result.title()
+#     return wrapper_func
+#
+# @sample_decorator_new
+# def display_first():
+#     return "good morning"
+#
+# print(display_first())
+#
+# def decorator_function(original_function):
+#     def wrapper_function():
+#         print("wrapper will be executed first")
+#         return original_function()
+#     return wrapper_function
+# @decorator_function
+# def display():
+#     print("good morning")
+#
+# display()
+#
+# # decorator with arguments
+#
+# def decorate_new_function(original_function):
+#     def wrapper_function(*args, **kwargs):
+#         print("wrapper will be executed first")
+#         return original_function(*args, **kwargs)
+#     return wrapper_function
+#
+#
+# @decorate_new_function
+# def display_info(name, age):
+#     print("name {} and age is {}  ".format(name, age))
+#
+# display_info("anil", 2899)
+#
+# def decorate_function(original_function):
+#     def wrapper_function(name):
+#         res = original_function(name)
+#         return res.upper()
+#     return wrapper_function
+#
+# @decorate_function
+# def display(name):
+#     return name
+#
+# res = display("anil")
+# print(res)
+#
+# def sample_decorator(original_function):
+#     def wrapper_function(a, b):
+#         print("inside wrapper")
+#         if b == 0:
+#             print("divisible by zero is not possible")
+#             return
+#         return original_function(a,b)
+#     return wrapper_function
+# @sample_decorator
+# def dividing(a,b):
+#     print( a/b)
+#
+# dividing(5,2)
+# print("=========")
+# dividing(4,0)
+#
+#
+# def star_decorator(original_function):
+#     def wrapper_function(*args, **kwargs):
+#         print("*"*15)
+#         original_function()
+#         print("*" * 15)
+#     return wrapper_function
+#
+# def divide_decorator(original_function2):
+#     def wrapper_function(*args, **kwargs):
+#         print("%"*15)
+#         original_function2()
+#         print("%" * 15)
+#     return wrapper_function
+# @star_decorator
+# @divide_decorator
+# def display():
+#     print("hello")
+#
+#
+# display()
+# # display = star_decorator(divide_decorator(display))
 
-    def __init__(self, original_function):
-        print("i am init")
-        self.original_function = original_function
-
-
-    def __call__(self, *args, **kwargs):
-        print("call method will be executed first")
-        return self.original_function(*args, **kwargs)
-@decorator_class
-def display_something():
-    print("i am something")
-
-display_something()
-
-# realtime example
-from functools import wraps
-def my_timer(org_func):
-    @wraps(org_func)
-    def wrapp_fun(*args, **kwargs):
-        import time
-        start_time = time.time()
-        org_func(*args, **kwargs)
-        time_taken =time.time() -start_time
-        print("time taken for {} to complet is {}".format(org_func.__name__,time_taken))
-    return wrapp_fun
-
-
-def my_logger(original_function):
-    print("something")
-    import logging
-    logging.basicConfig(filename="{}.log".format(original_function.__name__), level=logging.INFO)
-    @wraps(original_function)
-    def wrapper_function(*args, **kwargs):
-        logging.info("{} Ran with with args : {} and kwargs {}".format(original_function.__name__,args, kwargs))
-        original_function(*args, **kwargs)
-    return wrapper_function
-@my_logger
-@my_timer
-
-def display_info_new(name, loc):
-    import time
-    time.sleep(1)
-    print("args are name {} loc {}".format(name, loc))
-display_info_new("anil", "chennai")
-
-
-
-
-def sample_decorator_new(original_func):
+def decorator_function1(original_function):
+    def wrapper_function1():
+        print("i am inside wrapper1")
+        original_function()
+        # print("i am inside after wrapper1")
+    return wrapper_function1
+def decorator_function2(orig_function):
     def wrapper_func():
-        result = original_func()
-        return result.title()
+        print("i am inside wrapper2")
+        orig_function()
+        # print("i am inside after wrapper2")
     return wrapper_func
+@decorator_function2
+@decorator_function1
+def display():
+    print("good evening")
 
-@sample_decorator_new
-def display_first():
-    return "good morning"
+# display = decorator_function2(decorator_function1(display))
+# display()
+# decorator_function2(wrapper_function1)
+# wrapper_func
+# i am inside wrapper2
+# i am inside wrapper1
+# good evening
+# i am inside after wrapper1
+# i am inside after wrapper2
+# display()
 
-print(display_first())
+
+
+
+def decor1(func1):
+    def inner1():
+        x = func1()
+        return x * x
+    return inner1
+
+def decor(func):
+    def inner():
+        x = func()
+        return 2 * x
+    return inner
+@decor1
+@decor
+def num():
+    return 10
+# decor1(decor(num))
+# decor1(inner)
+# inner1()
+# 2*10
+# 20 * 20
+# 100
+
+# print(num())
+
+
+# def do_twice(original_func):
+#     def wrapper_do_twice():
+#         original_func()
+#         original_func()
+#     return wrapper_do_twice
+
+# @do_twice
+# def greet():
+#     print("greetings have a nice  day")
+# greet()
+
+# with arguments
+# def do_twice(original_func):
+#     def wrapper_do_twice(*args, **kwargs):
+#         original_func(*args, **kwargs)
+#         original_func(*args, **kwargs)
+#     return wrapper_do_twice
+#
+# @do_twice
+# def greet(name):
+#     print("greetings have a nice  day {}".format(name))
+# greet("Anil")
+
+# returning values from decorator
+# def do_twice(original_func):
+#     def wrapper_do_twice(*args, **kwargs):
+#         res = original_func(*args, **kwargs)
+#         return res
+#     return wrapper_do_twice
+#
+# @do_twice
+# def return_greeting(name):
+#     print("creating greeting ")
+#     return "Hi {}".format(name)
+#
+# hi_anil = return_greeting("anil")
+# print(hi_anil)
+
+# import functools
+# def do_twice(original_function):
+#     @functools.wraps(original_function)
+#     def wrapper_do_twice():
+#         original_function()
+#     return wrapper_do_twice
+#
+# @do_twice
+# def say_whee():
+#     print("eee")
+#
+# say_whee()
+# print(say_whee)
+# print(say_whee.__name__)
+
+
+import functools
+
+def decorator_function(original_function):
+    @functools.wraps(original_function)
+    def wrapper_function():
+        print("do something before calling func")
+        value = original_function()
+        print("do something after calling the func")
+        return value
+    return wrapper_function
+
+# timing decorator
+import time
+import functools
+def timer_decorator(original_function):
+    @functools.wraps(original_function)
+    def wrapper_function(*args, **kwargs):
+        startime = time.time()
+        res = original_function(*args, **kwargs)
+        endtime = time.time()
+        print("function {} finished  {}".format(original_function.__name__, endtime-startime))
+        return res
+    return wrapper_function
+
+@timer_decorator
+def waste_some_time():
+    import time
+    time.sleep(2)
+
+# waste_some_time()
+# print(waste_some_time.__name__)
+
+
+import functools
+
+def debug(func):
+    """Print the function signature and return value"""
+    @functools.wraps(func)
+    def wrapper_debug(*args, **kwargs):
+        args_repr = [repr(a) for a in args]                      # 1
+        kwargs_repr = [f"{k}={v!r}" for k, v in kwargs.items()]  # 2
+        signature = ", ".join(args_repr + kwargs_repr)           # 3
+        print(f"Calling {func.__name__}({signature})")
+        value = func(*args, **kwargs)
+        print(f"{func.__name__} returned {value!r}")           # 4
+        return value
+    return wrapper_debug
+
+@debug
+def make_greeting(name, age=None):
+    if age is None:
+        return f"Howdy {name}!"
+    else:
+        return f"Whoa {name}! {age} already, you are growing up!"
+
+
+make_greeting("ANil",29)
+
+
+def sample_dec(*args, **kwargs):
+    print(sample_dec.__name__, *args)
+sample_dec(10,20)
