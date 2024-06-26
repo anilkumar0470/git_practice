@@ -5,9 +5,10 @@
 
 #a = 99999 # True
 
-a = 0
-age = 18
-per = 80
+#zero is False
+#non-zero is true (other than 0, like 1,2,3,4,......)
+
+a = 1033244
 if a:
     print(" a value is True")
 else :

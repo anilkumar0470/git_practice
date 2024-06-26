@@ -70,25 +70,25 @@ def cmdopt(request):
 #
 #     request.addfinalizer(some_resource_fin)
 
-def pytest_logger_config(logger_config):
-    logger_config.add_loggers(["ui_test"], stdout_level="debug")
-    logger_config.set_log_option_default('ui_test')
-
-@pytest.fixture(scope="session")
-def generating_random_number_in_module_level():
-    print("executing from conftest  file ")
-    return random.randint(0,10)
-
-@pytest.fixture(scope="module")
-def generating_random_number_in_session_level():
-    print("executing from conftest  session file ")
-    return random.randint(0,10)
-
-
-@pytest.fixture(scope="class")
-def generating_random_numbero():
-    print("executing from conftest  file ")
-    return random.randint(0,100)
+# def pytest_logger_config(logger_config):
+#     logger_config.add_loggers(["ui_test"], stdout_level="debug")
+#     logger_config.set_log_option_default('ui_test')
+#
+# @pytest.fixture(scope="session")
+# def generating_random_number_in_module_level():
+#     print("executing from conftest  file ")
+#     return random.randint(0,10)
+#
+# @pytest.fixture(scope="module")
+# def generating_random_number_in_session_level():
+#     print("executing from conftest  session file ")
+#     return random.randint(0,10)
+#
+#
+# @pytest.fixture(scope="class")
+# def generating_random_numbero():
+#     print("executing from conftest  file ")
+#     return random.randint(0,100)
 
 
 @pytest.fixture(scope="session")

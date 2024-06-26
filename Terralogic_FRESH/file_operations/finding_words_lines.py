@@ -23,10 +23,10 @@ def count_line_word(filename):
     print ("word count:",wc)
 count_line_word("abcde.txt")
 
-
-def sample():
-    # print("z value is ", z)
-    z = 50
-    print("z value is ", z)
-# sample()
-# print("z value is ",z)
+#
+# def sample():
+#     # print("z value is ", z)
+#     z = 50
+#     print("z value is ", z)
+# # sample()
+# # print("z value is ",z)

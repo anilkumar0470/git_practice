@@ -13,6 +13,12 @@ details("erere", 343)
 details("anil",29, "bang")
 
 
+
+
+
+
+
+
 str = "string is good hi everyone"
 
 

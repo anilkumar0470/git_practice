@@ -75,3 +75,13 @@
 #
 #
 #
+
+class Sample:
+    def function1(self,a,b,c):
+        print(a,b,c)
+
+    def function1(self,*args):
+        print(args)
+
+s = Sample()
+s.function1(10,3,4,5,5)

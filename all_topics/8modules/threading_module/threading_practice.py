@@ -29,6 +29,14 @@ def do_something(seconds):
 # t1.join()
 # t2.join()
 #
+
+
+
+
+
+
+
+
 # threads = []
 # for _ in range(10):
 #     t = threading.Thread(target=do_something, args=(1.5,))
